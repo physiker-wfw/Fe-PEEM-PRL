@@ -1,0 +1,99 @@
+\documentclass[amsfonts, amssymb, amsmath, preprint, showkeys, nofootinbib, twoside, prl]{revtex4-2}
+
+\usepackage{graphicx}
+\usepackage{bm}
+
+\usepackage{units}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, citecolor=blue, urlcolor=blue, linkcolor=blue}
+
+\usepackage{todonotes}
+
+\renewcommand{\vec}[1]{\boldsymbol{#1}}
+
+\begin{document}
+\title{Improved imaging of magnetic domains with a photoelectron emission microscope \\ --- Supplemental Material ---}
+
+\author{F. O. Schumann}
+\email{Electronic mail: schumann@mpi-halle.de}
+\affiliation{ Max-Planck-Institut f\"{u}r Mikrostrukturphysik, Weinberg 2, 06120 Halle, Germany}
+
+\author{M. Paleschke}
+\author{J. Henk}
+\author{W. Widdra}
+\affiliation{Institute of Physics, Martin Luther University Halle-Wittenberg, D-06099 Halle (Saale), Germany}
+
+\author{C.-T. Chiang}
+\affiliation{Institute of Atomic and Molecular Sciences, Academia Sinica, Taipei, Taiwan}
+
+\maketitle
+
+\section{Electronic-structure and photoemission calculations}
+For the calculations of the electronic structure and the photoemission intensities we used our computer program package \textsc{omni}, which is based on the spin-polarized relativistic layer Korringa-Kohn-Rostoker method (KKR). Solving the Dirac equation for a magnetic material, exchange splitting and spin-orbit coupling are treated on equal footing. \textsc{omni} has proven its quality in a number of publications, see for example Ref.~\cite{Tusche2018} and references therein.
+
+The sample is taken as semi-infinite Fe(100), for which the potentials of the first \todo{Insert number} layers may deviate from that of bulk layers. \todo{Relaxation?} For the image-potential barrier we take the \todo{Add form} form \todo{Add reference}.
+
+Self-consistent electronic-structure calculations have been performed using the local spin-density approximation for the exchange-correlation functional in density-functional theory. For solving the single-site scattering problem, the layer-KKR method uses an expansion of the scattering solutions with respect to angular momentum, in this work up to $l_{\mathrm{max}} = ?$\todo{Add number}. The interlayer scattering relies on a  plane-wave expansion, here with an energy cut-off of $\hbar^{2}\vec{k}_{\parallel}^{2} / 2 m \leq \unit[?]{H}$.\todo{Add number}. The calculated bulk and the surface electronic structures as well as the layer-resolved magnetic moments agree with those computed and published elsewhere. 
+
+The results of the electronic-structure calculations serve as basis for the photoemission calculations, for which the same potentials as for the electronic-structure calculations are used. The spin-polarized photocurrent is calculated within the one-step model of photoemission, taking a time-reversed LEED state as final state. Photoelectrons excited within the topmost $50$~layers are considered in order to obtain converged intensities and spin polarizations. The calculated spin-density matrix of the photoelectron allows to derive all components of the photoelectron's spin polarization vector. 
+
+In order to mimic many-particle effects, we use an energy-dependent self-energy $\Sigma(E)$ whose real part shifts electronic states in energy and its imaginary part broadens the photoemission spectra. This energy dependence is modelled by smooth functions while the true self-energy is more complicated and, on top of this, depends on the wave vector $\vec{k}_{\parallel}$ (see for example Ref.~\onlinecite{Tusche2018}). This means that one can expect deviations between experimental and theoretical data taken at constant binding energy (confer Figs.~2 and 3 of the main text).
+
+\section{Symmetry analysis}
+The point group of a nonmagnetic bcc(100) surface is $C_{4\mathrm{v}}$ ($4mm$), which in the case of photoemission from ferromagnetic Fe is reduced to $C_{\mathrm{s}}$ ($m$), if the light impinges within a mirror plane of the lattice (here: the $xz$-plane; confer Fig.~1 of the main text). The two symmetry operations are thus the identity $\hat{1}$ and the reflection $\hat{m}_{xz}$ at the $xz$-plane. The effect of these operations on the photoelectron's wavevector $\vec{k}_{\parallel} = (k_{x}, k_{y})$, on the helicity $\sigma_{\pm}$ of the circular polarized light, and on the in-plane magnetization $\vec{M} = (M_{x}, M_{y})$ is given in Table~\ref{tab:symmetry}.
+
+\begin{table}
+    \centering
+    \caption{Effect of symmetry operations on the photoelectron wavevector $\vec{k}_{\parallel} = (k_{x}, k_{y})$, the helicity of the incident light $\sigma_{\pm}$, and the in-plane magnetization $\vec{M} = (M_{x}, M_{y})$. For details see text.}
+    \label{tab:symmetry}
+    \begin{tabular}{c|rrcrr}
+     \hline \hline
+        \multicolumn{1}{c|}{operation} & 
+        \multicolumn{2}{c}{wavevector} & 
+        \multicolumn{1}{c}{helicity} &  
+        \multicolumn{2}{c}{magnetization} \\ \hline
+        $\hat{1}$      & $k_{x}$ & $k_{y}$  & $\sigma_{\pm}$ & $M_{x}$ & $M_{y}$ \\
+        $\hat{m}_{xz}$ & $k_{x}$ & $-k_{y}$ & $\sigma_{\mp}$ &  $-M_{x}$ & $M_{y}$ \\
+     \hline \hline
+    \end{tabular}
+\end{table}
+
+Table~\ref{tab:symmetry} allows to derive relations between photoemission intensities $I(k_{x}, k_{y}; \sigma_{\pm}; M_{x}, M_{y})$ for equivalent setups. For example, photoemission from a ferromagnetic domain with magnetization along the $x$-axis ($M_{y} = 0)$ yields
+\begin{align}
+    I(k_{x}, k_{y}; \sigma_{+}; M_{x}, 0) & = I(k_{x}, -k_{y}; \sigma_{-}; -M_{x}, 0).
+\end{align}
+If $k_{y} = 0$ (detection in the $xz$-plane) one obtains the established relation that the intensity is not changed if both magnetization and helicity are reversed. Likewise, the relation 
+\begin{align}
+    I(k_{x}, k_{y}; \sigma_{+}; 0, M_{y}) & = I(k_{x}, -k_{y}; \sigma_{-}; 0, M_{y})
+\end{align}
+tells that for a domain with magnetization along the $y$-axis reversing both the azimuth ($k_{y} \to -k_{y}$) and the helicity yield the same intensity. Moreover, generalizing these examples allows to derive the symmetry of the patterns shown in Figs.~2 and~3 of the main text.
+
+The above considerations yield relations between intensities for photoelectrons emitted with opposite azimuths, that is with $\vec{k}_{\parallel} = (k_{x}, k_{y})$ and $\vec{k}_{\parallel} = (k_{x}, -k_{y})$. Since photoelectrons from both azimuths are detected in a PEEM, the exchange asymmetry can in general be increased if only photoelectrons of one chosen azimuth $\vec{k}_{\parallel}$ are considered; the others are ignored by placing an aperture within the PEEM's beam path. 
+
+For a fixed $\vec{k}_{\parallel}$ we define asymmetries that disentangle the contrast mechanisms: light polarization ($A_{\mathrm{pol}}$) and magnetization orientation ( ($A_{\mathrm{ex}}$)). With the four intensities $I(\vec{k}_{\parallel}, \sigma_{\pm}, \pm M)$, in the following shortened as $I_{\pm \pm}$, we define the total intensity
+\begin{align}
+    I & \equiv I_{+ +} + I_{+ -} + I_{- +} + I_{- -}
+\end{align}
+and the respective asymmetries 
+\begin{subequations}
+\begin{align}
+    A_{\mathrm{pol}} & \equiv \left[ \left( I_{+ +} + I_{+ -} \right) - \left( I_{- +} + I_{- -} \right) \right] / I,
+    \label{eq:Apol}
+    \\
+    A_{\mathrm{ex}} & \equiv \left[ \left( I_{+ +} + I_{- -} \right) - \left( I_{+ -} + I_{- +} \right) \right] / I.
+    \label{eq:Aex}
+\end{align}    
+\end{subequations}
+A third asymmetry,
+\begin{align}
+    A_{\mathrm{soc}} & \equiv \left[ \left( I_{+ +} + I_{- +} \right) - \left( I_{+ -} + I_{- -} \right) \right] / I,
+    \label{eq:Asoc}
+\end{align}    
+quantifies the spin polarization produced by optical orientation, aka Fano effect, which requires spin-orbit coupling (SOC).
+
+\bibliography{references}
+
+\listoftodos
+
+\end{document}
