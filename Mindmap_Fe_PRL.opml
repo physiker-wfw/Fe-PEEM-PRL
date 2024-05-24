@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<opml version="1.0">
+	<head>
+		<title>
+Fe-PEEM-PRL
+		</title>
+	</head>
+	<body>
+		<outline text="Fe-PEEM-PRL">
+			<outline text="Introduction">
+				<outline text="Role of XMCD-PEEM for magnetic domain imaging">
+					<outline text="Requirement for SR">
+						<outline text="availabbility"/>
+					</outline>
+					<outline text="Mainly CW application"/>
+					<outline text="Limitation in SR pulse duration to ps"/>
+				</outline>
+				<outline text="Need for ultrafast imaging of magnetization and spin dynamics"/>
+				<outline text="Observations so far for threshold MCD PEEM">
+					<outline text="Only small MCD asymmetries reported for in-plane magnetization">
+						<outline text="stopped any further threshold MCD PEEM"/>
+					</outline>
+					<outline text="out-of-plane MCD asymmetries up to 12 % reported for Ni/Cu"/>
+				</outline>
+				<outline text="Here and new">
+					<outline text="concept of darkfield MCD PEEM in threshold photoemission">
+						<outline text="Momentum selection"/>
+						<outline text="Kinetic energy selection"/>
+						<outline text="Laser excitation"/>
+						<outline text="Approach rationalized by symmetry consideration for photoemission"/>
+						<outline text="Quantitative comparison with full-relativistic photoemission calculations"/>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="Main">
+				<outline text="Conceptual basis">
+					<outline text="Definition of 3 asymmetries">
+						<outline/>
+					</outline>
+					<outline text="Symmetry discussion">
+						<outline/>
+					</outline>
+					<outline text="Photoemission selection rules">
+						<outline text="Typically known for k=0"/>
+					</outline>
+					<outline text="Photoemission calculations">
+						<outline text="Omni"/>
+					</outline>
+				</outline>
+				<outline text="Experimental aspects">
+					<outline text="PEEM setup"/>
+					<outline text="polarization optics for Hg source"/>
+					<outline text="Laser setup"/>
+				</outline>
+				<outline text="Energy-dependent A_ex">
+					<outline>
+						<outline text="Momentum-resolved A_ex "/>
+					</outline>
+				</outline>
+				<outline text="Energy-dependent A_pol">
+					<outline/>
+				</outline>
+				<outline text="Darkfield-MCD domain imaging">
+					<outline/>
+				</outline>
+				<outline text="Theoretical explanation via band structure">
+					<outline>
+						<outline text="Better: band structure from actual calculation"/>
+					</outline>
+				</outline>
+				<outline text="Discussion of generality of approach  (other in-plane ferromagnetic metals;  out-of-plane sensitivity)"/>
+			</outline>
+			<outline text="Conclusion"/>
+		</outline>
+	</body>
+</opml>
