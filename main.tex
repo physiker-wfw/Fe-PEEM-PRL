@@ -18,7 +18,7 @@
 
 \begin{document}
 \title{Magnetic dichroism in darkfield UV photoemission electron microscopy}
-\author{Maximilian Paleschke$^{1}$, David Huber$^{1}$, Cheng-Tien Chiang$^2$, Frank O. Schumann$^3$, Jürgen Henk$^1$, Wolf Widdra$^1$}
+\author{Maximilian Paleschke$^{1}$, David Huber$^{1}$, Friederike Wührl$^1$, Cheng-Tien Chiang$^2$, Frank O. Schumann$^3$, Jürgen Henk$^1$, Wolf Widdra$^1$}
 
 \affiliation{$^1$Institute of Physics, Martin Luther University Halle-Wittenberg, D-06099 Halle (Saale), Germany}
 
@@ -46,9 +46,9 @@ Replacing the incident X-ray radiation by ultrashort laser pulses solves this is
 As we demonstrate here, the concept of darkfield PEEM in threshold photoemission allows efficient MCD imaging with an order-of-magnitude enhanced MCD contrast for in-plane magnetization. It paves the way for MCD imaging on femtosecond timescales with modern UV laser sources.
 Darkfield PEEM imaging uses an aperture for photoelectron momentum selection in the back focal plane of the electron imaging column prior to forming the real space image. We will demonstrate this for the in-plane magnetic structure at the Fe(001) surface and  compare quantitatively the experimental results with state-of-the-art full-relativistic photoemission calculations.
 
-\todo[inline]{Review existing literature, not ready} After theoretical work had predicted valence-band magnetic dichroism in 1996, the first experimental evidence of magnetic dichroism in threshold PEEM was reported by Marx \textit{et al.}\ in 2000 \cite{henk1996,feder1996, marx2000}. Their investigation on polycrystalline Fe revealed a linear asymmetry of 0.37\,\%. After that, many spectroscopic studies followed, showing the existence of circular and linear dichroism in several ferromagnetic materials \cite{nakagawa2006,hild2008,hild2009,hild2010,hild2012}. Nakagawa \textit{et al.}\ built on the first experimental work of Marx. They chose Ni films adsorbed with Cs, which showed large asymmetries up to 12\,\% in circular dichroism PEEM for out-of-plane oriented domains \cite{nakagawa2007,nakagawa2009,nakagawa2012}. This also proved the applicability of pulsed laser light for dichroism imaging. Due to the limited photon energy of commonly available optical laser setups, Cs is still needed in most photoemission experiments to reduce the work function \cite{kronseder2011, meier2017}. Notably, domains at the FePt surface were investigated utilizing a pulsed deep-UV laser with a photon energy of 7\,eV \cite{zhao2019}. 
+\todo[inline]{Check review of existing literature below} After the first observation and theoretical work of magnetic dichroism in the valence band \cite{schneider1991,henk1996,feder1996}, the first experimental evidence of magnetic dichroism in threshold PEEM was reported by Marx \textit{et al.}\ in 2000 \cite{marx2000}. Their investigation on polycrystalline Fe revealed a linear asymmetry of 0.37\,\%. After that, many spectroscopic studies followed, showing the existence of circular and linear dichroism in several ferromagnetic materials \cite{nakagawa2006,hild2008,hild2009,hild2010,hild2012}. Nakagawa \textit{et al.}\ built on the first experimental work of Marx. They chose Ni films adsorbed with Cs, which showed large asymmetries up to 12\,\% in circular dichroism PEEM for out-of-plane oriented domains \cite{nakagawa2007,nakagawa2009,nakagawa2012}. This also proved the applicability of pulsed laser light for dichroism imaging. Due to the limited photon energy of commonly available optical laser setups, Cs is still needed in most photoemission experiments to reduce the work function \cite{kronseder2011, meier2017}. Notably, domains at the FePt surface were investigated utilizing a pulsed deep-UV laser with a photon energy of 7\,eV \cite{zhao2019}. 
 % and the combination with a high-order harmonic generation (HHG) chamber was tested recently \cite{zheng2021}.
-On the other side, the theory of valence-band dichroism was predominately developed in the 90s and early 2000s by Feder, Henk, Kuch, Schneider and Venus \cite{feder1996,henk1996,kuch1996a,kuch2001,venus1994,venus1997} and supported by pioneering experiments of Tamura, Schmiedekamp, Kirschner, and Hild \cite{tamura1987, schmiedeskamp1988, venus95, hild2008, hild2009, hild2010}. It is based on calculating the relativistic band structure in combination with a theoretical description of the photoemission process.
+On the other side, the theory of valence-band dichroism was predominately developed in the 90s and early 2000s by Feder, Henk, Kuch, Schneider and Venus \cite{feder1996,henk1996,kuch1996a,kuch2001,venus1994,venus1997} and supported by pioneering experiments of Tamura, Schmiedekamp, Kirschner, and Hild \cite{tamura1987, schmiedeskamp1988, venus95, hild2008, hild2009, hild2010}. It is based on calculating the relativistic band structure in combination with a theoretical description of the photoemission process. \todo[inline]{Do we need to cite Getzlaff'22 \cite{getzlaff2022}?}
 
 
 
@@ -57,7 +57,7 @@ On the other side, the theory of valence-band dichroism was predominately develo
 \begin{figure}
     \centering
     \includegraphics[width = \columnwidth]{symmetry}
-    \caption{Symmetry analysis. A circular polarized laser pulse (orange, with helicity $\sigma_{+}$ impinges onto a magnetic domain (rectangular solid, with magnetization direction $\vec{M}$). The pulse's incidence direction and the surface normal ($z$-axis) span the scattering plane (blue; $xz$-plane). The off-normal detection of photoelectrons with wavevector $\vec{k}$ results in a chiral setup. 
+    \caption{Symmetry analysis. A circular polarized laser pulse (orange, with helicity $\sigma_{+}$ impinges onto a magnetic domain (rectangular solid). The light incidence direction and the surface normal ($z$-axis) span the scattering plane (blue; $xz$-plane) with magnetization direction $\vec{M}$ oriented within or perpendicular to the scattering plane in (a) and (b), respectively. Note that the off-normal detection of photoelectrons with wavevector $\vec{k}$ (black arrow) results in a chiral setup. 
     % \rework{If the scattering plane is a mirror plane of the lattice, the photoemission intensities for fixed $\vec{k}$ obey $I(\sigma_{+}, +\vec{M}) = I(\sigma_{-}, -\vec{M})$ (panel~a) or $I(\sigma_{+}, +\vec{M}) = I(\sigma_{-}, +\vec{M})$ (panel~b).}
     }
     \label{fig:symmetry}
@@ -84,7 +84,7 @@ In the polarization asymmetry $A_{\mathrm{pol}}$ the magnetization's orientation
 
 If the scattering plane is a mirror plane of the lattice, the photoemission intensities for fixed $\vec{k}$ within the scattering plane obey the symmetry relation $I(\sigma_{+}, +\vec{M}) = I(\sigma_{-}, -\vec{M})$ for a magnetization within the scattering plane (Fig.~\ref{fig:symmetry}(a)). This results into a finite $A_{\mathrm{ex}}$, but vanishing $A_{\mathrm{pol}}$. For perpendicular magnetization, $I(\sigma_{+}, +\vec{M}) = I(\sigma_{-}, +\vec{M})$ holds that leads here to vanishing $A_{\mathrm{pol}}$ and vanishing $A_{\mathrm{ex}}$.
 
-In the following, we compare the theoretical MCD asymmetries based on relativistic photoemission computations for Fe(001), briefly described in the Supplemental Material~\cite{Supplement}, with corresponding experimental results for a photon energy of $\unit[5.2]{eV}$. The photoemission has been recorded for 70° grazing light incidence within the [100] high-symmetry direction in a standard PEEM setup (Focus GmbH, Hünstetten). As light source either a mercury discharge lamp or the frequency-doubled output of a non-collinear optical amplifier (NOPA) with circular polarization optics is used \cite{Duncker12,Gillmeister20,Paleschke2021}. 
+In the following, we compare the theoretical MCD asymmetries based on relativistic photoemission computations for Fe(001), briefly described in the Supplemental Material~\cite{Supplement}, with corresponding experimental results for a photon energy of $\unit[5.2]{eV}$. The photoemission has been recorded for 70° grazing light incidence within the [100] high-symmetry direction in a standard PEEM setup (Focus GmbH, Hünstetten). As light source either a mercury discharge lamp or the frequency-doubled output of a non-collinear optical amplifier (NOPA) with circular polarization optics is used \cite{duncker2012,gillmeister2020, paleschke2021}. 
 
 \begin{figure*}
     \centering
@@ -114,7 +114,7 @@ From the momentum-resolved $A_{\mathrm{ex}}$ pattern in Fig.~\ref{fig:Aex}, it f
 \begin{figure}
     \centering
     \includegraphics[width = 0.8\columnwidth]{Darkfield_overview.pdf}
-    \caption{Darkfield MCD imaging of Fe(100). Top: schematic, nine aperture positions in the momentum plane for imaging with the momentum-resolved $A_{\mathrm{ex}}$ pattern in the background. Bottom: domain imaging using the nine aperture positions shown above. Photon energy $\unit[5.2]{eV}$, grazing light incidence, \rework{binding energy $\unit[xx]{eV}$.}}
+    \caption{Darkfield MCD imaging of Fe(100). Top: Schematics of the nine aperture positions in the momentum plane (Momentum-resolved $A_{\mathrm{ex}}$ pattern set as background). Bottom: Domain imaging using the nine aperture positions shown above. Photon energy $\unit[5.2]{eV}$, grazing light incidence, \rework{binding energy $\unit[xx]{eV}$.}}
     \label{fig:Imaging}
 \end{figure}
 
@@ -126,20 +126,19 @@ As expected, the contrast switches from sensitivity in x direction to y directio
 
 \paragraph{Band structure effects.}
 
-The size of $A_{\mathrm{ex}}$ and, therefore, the MCD contrast in PEEM for near-threshold photoemission depend on the initial state energy as is demonstrated in Fig.~\ref{fig:Aex}. It reverses sign from about $\unit[+6]{\%}$ at the Fermi level to $\unit[-5.5]{\%}$ at $E_B= 0.44\,eV$. \com{This aspect is a material specific property, which is related to the spin-dependent band structure of Fe(001) and the corresponding photoemission matrix elements. Note that the latter are photon energy dependent according to the different photoemission final states selected \todo{dis- cuss more ?}.}
-
-% \todo[inline]{Elaborate on theory and band structure}
-
-% \begin{figure}
-%     \centering
+The size of $A_{\mathrm{ex}}$ and, therefore, the MCD contrast in PEEM for near-threshold photoemission depend on the initial state energy as is demonstrated in Fig.~\ref{fig:Aex} and summarized in Fig.~\ref{fig:AexContrast} (b). $A_{\mathrm{ex}}$ reverses sign from about $\unit[+6]{\%}$ at the Fermi level to $\unit[-5.5]{\%}$ at $E_B= 0.44\,eV$. For larger binding energies, it decreases again with an absolute value below $\unit[1]{\%}$ at $\unit[0.65]{eV}$. These momentum- and energy-resolved PEEM data have been crosschecked  with higher energy resolution in a second, angle-resolved photoelectron spectroscopy (ARPES) setup described elsewhere \cite{gillmeister2018, gillmeister2020} and depicted in Fig.~\ref{fig:AexContrast} (a). They confirm a maximum value of $A_{\mathrm{ex}}$ at the Fermi level, as well as a sign change and a negative maximum at $E_B = \unit[xx]{eV}$ and $\unit[xx]{eV}$, respectively, with a decreasing for lower binding energies. Note that this observation calls for exact threshold photoexcitation or for an energy-resolved electron detection in order to obtain high MCD signals. Otherwise the positive and negative exchange asymmetries will partly cancel.
+\begin{figure}
+    \centering
 %     \includegraphics[width = 0.8\columnwidth]{FLAPW_bandstructure.jpg}
-%     \caption{Spin-resolved band structure of Fe(001). Here we should show the band structure, which is the basis for the OMNI calculations.}
-%     \label{fig:bandstructure}
-% \end{figure}
+    \caption{Binding-energy dependent exchange asymmetry $A_{\mathrm{ex}}$ for $\unit[5.2]{eV}$. (a) ARPES setup with sample magnetized in +x and -x direction (light incidence at 70°, $k_y = 0$). (b) PEEM setup with $A_{\mathrm{ex}}$ determined from Fig. \ref{fig:Aex} (light incidence at 60°, $k_x = \unit[xx]{\AA}$, $k_y = 0$).}
+    \label{fig:AexContrast}
+\end{figure}
 
-\paragraph{Summary and prospects.} The present investigation proves that magnetic domains can be imaged with high contrast with threshold PEEM using a momentum-selection of the detected photoelectrons. The common belief that a such PEEM provides only weak contrast is thereby refuted.
+\com{While the darkfield scheme of threshold MCD PEEM is broadly applicable, the magnitude of the binding-energy dependent exchange asymmetry $A_{\mathrm{ex}}$ is a material-specific property. This property is influenced by the spin-dependent band structure of Fe(001) and the corresponding photoemission matrix elements. It is important to note that these matrix elements are photon energy dependent due to the selection of different photoemission final states.}
 
-For a proof-of-principle we applied the proposed darkfield UV PEEM to an in-plane magnetized Fe(001) surface. However, the approach is general so that it can easily be applied to other ferromagnets, even to those with out-of-plane magnetization. Thus, it is well suited for studying magnetic reorientation transitions, as for example observed for Ni/Cu(001) \todo{Add reference}. We see its main capabilities, however, in investigations of ultrafast magnetization dynamics using femtosecond laser pulses in a optical pump and threshold UV photoemission probe scheme. For applications it paves the way for imaging the ultrafast motion of domain walls \todo{cite race track} or of large skyrmions on nanometer lengthscales.
+\paragraph{Summary and prospects.} The present investigation proves that magnetic domains can be imaged with high contrast with threshold PEEM using a momentum-selection of the detected photoelectrons as concept of darkfield threshold MCD PEEM. 
+
+For a proof-of-principle, we applied darkfield UV PEEM to an in-plane magnetized Fe(001) surface. However, the approach is general so that it can easily be applied to other ferromagnets, even to those with include out-of-plane magnetization \cite{kronseder2011}. Thus, it is well suited for studying magnetic reorientation transitions, as for example observed for Ni/Cu(001) \cite{fukumoto2002,sander2004,nakagawa2006,kronseder2011}. We see its main capabilities, however, in investigations of ultrafast magnetization dynamics using femtosecond laser pulses in a optical pump and threshold UV photoemission probe scheme. For applications it paves the way for imaging the ultrafast motion of domain walls \cite{parkin2008} or of large skyrmions on nanometer lengthscales \cite{goebel2019,jani2021,kern2022}.
 
 \paragraph{Acknowledgments.} This work is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) -- Project-ID 328545488 -- TRR~227, projects~A06 and~B04.
 
