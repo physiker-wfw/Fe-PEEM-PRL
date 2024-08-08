@@ -63,6 +63,18 @@
   Series in Surface Sciences}, Vol.~\bibinfo {volume} {57}\ (\bibinfo
   {publisher} {Springer},\ \bibinfo {address} {Berlin Heidelberg},\ \bibinfo
   {year} {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Marx}\ \emph {et~al.}(2000)\citenamefont {Marx},
+  \citenamefont {Elmers},\ and\ \citenamefont {Sch{\"o}nhense}}]{marx2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~K.~L.}\
+  \bibnamefont {Marx}}, \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {Elmers}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Sch{\"o}nhense}},\ }\bibfield  {title} {\bibinfo {title} {Magneto-optical
+  {{Linear Dichroism}} in {{Threshold Photoemission Electron Microscopy}} of
+  {{Polycrystalline Fe Films}}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.84.5888} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {84}},\
+  \bibinfo {pages} {5888} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schneider}\ \emph {et~al.}(1991)\citenamefont
   {Schneider}, \citenamefont {Hammond}, \citenamefont {Schuster}, \citenamefont
   {Cebollada}, \citenamefont {Miranda},\ and\ \citenamefont
@@ -116,18 +128,6 @@
   {{Springer Berlin Heidelberg}},\ \bibinfo {address} {{Berlin, Heidelberg}},\
   \bibinfo {year} {1996})\ pp.\ \bibinfo {pages} {85--104}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Marx}\ \emph {et~al.}(2000)\citenamefont {Marx},
-  \citenamefont {Elmers},\ and\ \citenamefont {Sch{\"o}nhense}}]{marx2000}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~K.~L.}\
-  \bibnamefont {Marx}}, \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
-  {Elmers}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Sch{\"o}nhense}},\ }\bibfield  {title} {\bibinfo {title} {Magneto-optical
-  {{Linear Dichroism}} in {{Threshold Photoemission Electron Microscopy}} of
-  {{Polycrystalline Fe Films}}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.84.5888} {\bibfield  {journal} {\bibinfo
-   {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {84}},\
-  \bibinfo {pages} {5888} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nakagawa}\ \emph {et~al.}(2007)\citenamefont
   {Nakagawa}, \citenamefont {Yokoyama}, \citenamefont {Hosaka},\ and\
   \citenamefont {Katoh}}]{nakagawa2007}%
@@ -228,6 +228,17 @@
   {https://doi.org/10.1016/j.ultramic.2019.04.009} {\bibfield  {journal}
   {\bibinfo  {journal} {Ultramicroscopy}\ }\textbf {\bibinfo {volume} {202}},\
   \bibinfo {pages} {156} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tamura}\ \emph {et~al.}(1987)\citenamefont {Tamura},
+  \citenamefont {Piepke},\ and\ \citenamefont {Feder}}]{tamura1987}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Tamura}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Piepke}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Feder}},\ }\bibfield
+   {title} {\bibinfo {title} {New spin-polarization effect in photoemission
+  from nonmagnetic surfaces},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.59.934} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
+  {pages} {934} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kuch}\ \emph {et~al.}(1996)\citenamefont {Kuch},
   \citenamefont {Dittschar}, \citenamefont {Meinel}, \citenamefont {Zharnikov},
   \citenamefont {Schneider}, \citenamefont {Kirschner}, \citenamefont {Henk},\
@@ -275,17 +286,6 @@
   {\bibinfo  {journal} {Journal of Magnetism and Magnetic Materials}\ }\textbf
   {\bibinfo {volume} {170}},\ \bibinfo {pages} {29} (\bibinfo {year}
   {1997})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Tamura}\ \emph {et~al.}(1987)\citenamefont {Tamura},
-  \citenamefont {Piepke},\ and\ \citenamefont {Feder}}]{tamura1987}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Tamura}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Piepke}},\
-  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Feder}},\ }\bibfield
-   {title} {\bibinfo {title} {New spin-polarization effect in photoemission
-  from nonmagnetic surfaces},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.59.934} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
-  {pages} {934} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schmiedeskamp}\ \emph {et~al.}(1988)\citenamefont
   {Schmiedeskamp}, \citenamefont {Vogt},\ and\ \citenamefont
   {Heinzmann}}]{schmiedeskamp1988}%
@@ -431,7 +431,7 @@
   {2021})}\BibitemShut {NoStop}%
 \bibitem [{sch()}]{schumann2024}%
   \BibitemOpen
-  \href@noop {} {}\bibinfo {note} {F. Schumann, et al., in
+  \href@noop {} {}\bibinfo {note} {F. Schumann et al., in
   preparation}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Gillmeister}\ \emph {et~al.}(2018)\citenamefont
   {Gillmeister}, \citenamefont {Kiel},\ and\ \citenamefont
@@ -446,23 +446,17 @@
   {https://doi.org/10.1103/PhysRevB.97.085424} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
   {pages} {085424} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Fukumoto}\ \emph {et~al.}(2002)\citenamefont
-  {Fukumoto}, \citenamefont {Daimon}, \citenamefont {Chelaru}, \citenamefont
-  {Offi}, \citenamefont {Kuch},\ and\ \citenamefont
-  {Kirschner}}]{fukumoto2002}%
+\bibitem [{\citenamefont {Henk}\ \emph {et~al.}(1999)\citenamefont {Henk},
+  \citenamefont {Niklasson},\ and\ \citenamefont {Johansson}}]{henk1999}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Fukumoto}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Daimon}},
-  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Chelaru}}, \bibinfo
-  {author} {\bibfnamefont {F.}~\bibnamefont {Offi}}, \bibinfo {author}
-  {\bibfnamefont {W.}~\bibnamefont {Kuch}},\ and\ \bibinfo {author}
-  {\bibfnamefont {J.}~\bibnamefont {Kirschner}},\ }\bibfield  {title} {\bibinfo
-  {title} {Micromagnetic properties of the cu/ni crossed-wedge film on
-  cu(001)},\ }\href
-  {https://doi.org/https://doi.org/10.1016/S0039-6028(02)01621-7} {\bibfield
-  {journal} {\bibinfo  {journal} {Surface Science}\ }\textbf {\bibinfo {volume}
-  {514}},\ \bibinfo {pages} {151} (\bibinfo {year} {2002})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Henk}}, \bibinfo {author} {\bibfnamefont {A.~M.~N.}\ \bibnamefont
+  {Niklasson}},\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Johansson}},\ }\bibfield  {title} {\bibinfo {title} {{Magnetism and
+  anisotropy of ultrathin Ni films on Cu(001)}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.59.9332} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
+  {pages} {9332} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sander}\ \emph {et~al.}(2004)\citenamefont {Sander},
   \citenamefont {Pan}, \citenamefont {Ouazi}, \citenamefont {Kirschner},
   \citenamefont {Meyer}, \citenamefont {Krause}, \citenamefont {Muller},
