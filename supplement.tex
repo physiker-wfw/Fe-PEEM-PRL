@@ -1,4 +1,4 @@
-\documentclass[amsfonts, amssymb, amsmath, preprint, showkeys, nofootinbib, twoside, prl]{revtex4-2}
+\documentclass[amsfonts, amssymb, amsmath, preprint, showkeys, twoside, prl, superscriptaddress, aps]{revtex4-2}
 
 \usepackage{graphicx}
 \usepackage{bm}
@@ -13,30 +13,35 @@
 \renewcommand{\vec}[1]{\boldsymbol{#1}}
 
 \begin{document}
-\title{Improved imaging of magnetic domains with a photoelectron emission microscope \\ --- Supplemental Material ---}
+\begin{sloppy}
 
-\author{F. O. Schumann}
-\email{Electronic mail: schumann@mpi-halle.de}
-\affiliation{ Max-Planck-Institut f\"{u}r Mikrostrukturphysik, Weinberg 2, 06120 Halle, Germany}
+\title{Magnetic dichroism in darkfield UV photoemission electron microscopy  \\ --- Supplemental Material ---}
 
-\author{M. Paleschke}
-\author{J. Henk}
-\author{W. Widdra}
+\author{Maximilian Paleschke}
+\author{David Huber}
+\author{Friederike Wührl}
 \affiliation{Institute of Physics, Martin Luther University Halle-Wittenberg, D-06099 Halle (Saale), Germany}
 
-\author{C.-T. Chiang}
+\author{Cheng-Tien Chiang}
 \affiliation{Institute of Atomic and Molecular Sciences, Academia Sinica, Taipei, Taiwan}
+
+\author{Frank O. Schumann}
+\affiliation{Max-Planck-Institut f\"{u}r Mikrostrukturphysik, 06120 Halle, Germany}
+
+\author{Jürgen Henk}
+\author{Wolf Widdra}
+\affiliation{Institute of Physics, Martin Luther University Halle-Wittenberg, D-06099 Halle (Saale), Germany}
 
 \maketitle
 
 \section{Electronic-structure and photoemission calculations}
 For the calculations of the electronic structure and the photoemission intensities we used our computer program package \textsc{omni}, which is based on the spin-polarized relativistic layer Korringa-Kohn-Rostoker method (KKR). Solving the Dirac equation for a magnetic material, exchange splitting and spin-orbit coupling are treated on equal footing. \textsc{omni} has proven its quality in a number of publications, see for example Ref.~\cite{Tusche2018} and references therein.
 
-The sample is taken as semi-infinite Fe(100), for which the potentials of the first \todo{Insert number} layers may deviate from that of bulk layers. \todo{Relaxation?} For the image-potential barrier we take the \todo{Add form} form \todo{Add reference}.
+The sample is taken as semi-infinite Fe(100), for which the muffin-tin potentials of the first \todo{Insert number} layers deviate from that of bulk layers. \todo{Relaxation?} For the image-potential barrier we take the \todo{Add form} form \todo{Add reference}.
 
 Self-consistent electronic-structure calculations have been performed using the local spin-density approximation for the exchange-correlation functional in density-functional theory. For solving the single-site scattering problem, the layer-KKR method uses an expansion of the scattering solutions with respect to angular momentum, in this work up to $l_{\mathrm{max}} = ?$\todo{Add number}. The interlayer scattering relies on a  plane-wave expansion, here with an energy cut-off of $\hbar^{2}\vec{k}_{\parallel}^{2} / 2 m \leq \unit[?]{H}$.\todo{Add number}. The calculated bulk and the surface electronic structures as well as the layer-resolved magnetic moments agree with those computed and published elsewhere. 
 
-The results of the electronic-structure calculations serve as basis for the photoemission calculations, for which the same potentials as for the electronic-structure calculations are used. The spin-polarized photocurrent is calculated within the one-step model of photoemission, taking a time-reversed LEED state as final state. Photoelectrons excited within the topmost $50$~layers are considered in order to obtain converged intensities and spin polarizations. The calculated spin-density matrix of the photoelectron allows to derive all components of the photoelectron's spin polarization vector. 
+The results of the electronic-structure calculations serve as basis for the spin- and angle-resolved photoemission calculations, for which the same potentials as for the electronic-structure calculations are used. The spin-polarized photocurrent is calculated within the one-step model of photoemission, taking a time-reversed LEED state as final state. Photoelectrons excited within the topmost $50$~layers are considered in order to obtain converged intensities and spin polarizations. The calculated spin-density matrix of the photoelectron allows to derive all components of the photoelectron's spin polarization vector. 
 
 In order to mimic many-particle effects, we use an energy-dependent self-energy $\Sigma(E)$ whose real part shifts electronic states in energy and its imaginary part broadens the photoemission spectra. This energy dependence is modelled by smooth functions while the true self-energy is more complicated and, on top of this, depends on the wave vector $\vec{k}_{\parallel}$ (see for example Ref.~\onlinecite{Tusche2018}). This means that one can expect deviations between experimental and theoretical data taken at constant binding energy (confer Figs.~2 and 3 of the main text).
 
@@ -95,5 +100,8 @@ quantifies the spin polarization produced by optical orientation, aka Fano effec
 \bibliography{references}
 
 \listoftodos
+
+    
+\end{sloppy}
 
 \end{document}
