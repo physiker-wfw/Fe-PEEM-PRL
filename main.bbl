@@ -440,10 +440,20 @@
   {\bibfield  {journal} {\bibinfo  {journal} {New J. Phys.}\ }\textbf {\bibinfo
   {volume} {23}},\ \bibinfo {pages} {093006} (\bibinfo {year}
   {2021})}\BibitemShut {NoStop}%
-\bibitem [{sch(2024)}]{schumann2024}%
+\bibitem [{\citenamefont {Schumann}\ \emph {et~al.}(2024)\citenamefont
+  {Schumann}, \citenamefont {Paleschke}, \citenamefont {Henk}, \citenamefont
+  {Widdra},\ and\ \citenamefont {Chiang}}]{schumann2024}%
   \BibitemOpen
-  \href@noop {} {} (\bibinfo {year} {2024}),\ \bibinfo {note} {f. Schumann et
-  al., in preparation}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Schumann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Paleschke}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Henk}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ and\ \bibinfo {author}
+  {\bibfnamefont {C.-T.}\ \bibnamefont {Chiang}},\ }\bibfield  {title}
+  {\bibinfo {title} {Improved imaging of magnetic domains with a photoelectron
+  emission microscope by utilizing symmetry and momentum selection},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  B}\ }\textbf {\bibinfo {volume} {to be submitted}} (\bibinfo {year}
+  {2024})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Gillmeister}\ \emph {et~al.}(2018)\citenamefont
   {Gillmeister}, \citenamefont {Kiel},\ and\ \citenamefont
   {Widdra}}]{gillmeister2018}%
