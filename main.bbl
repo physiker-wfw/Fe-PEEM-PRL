@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{36}%
+\begin{thebibliography}{35}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -257,17 +257,17 @@
   {https://doi.org/10.1103/PhysRevB.53.11621} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo
   {pages} {11621} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kuch}\ and\ \citenamefont
-  {Schneider}(2001)}]{kuch2001}%
+\bibitem [{\citenamefont {Feder}\ \emph {et~al.}(1998)\citenamefont {Feder},
+  \citenamefont {Henk},\ and\ \citenamefont {Johansson}}]{feder1998}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Kuch}}\ and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
-  {Schneider}},\ }\bibfield  {title} {\bibinfo {title} {Magnetic dichroism in
-  valence band photoemission},\ }\href
-  {https://doi.org/10.1088/0034-4885/64/2/201} {\bibfield  {journal} {\bibinfo
-  {journal} {Reports on Progress in Physics}\ }\textbf {\bibinfo {volume}
-  {64}},\ \bibinfo {pages} {147} (\bibinfo {year} {2001})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Feder}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Henk}},\ and\
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Johansson}},\ }\bibfield
+  {title} {\bibinfo {title} {Magnetic dichroism in threshold photoemission},\
+  }\href {https://doi.org/10.1016/S0038-1098(98)00489-X} {\bibfield  {journal}
+  {\bibinfo  {journal} {Solid State Communications}\ }\textbf {\bibinfo
+  {volume} {108}},\ \bibinfo {pages} {713} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Venus}(1994)}]{venus1994}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
@@ -286,20 +286,17 @@
   {\bibinfo  {journal} {Journal of Magnetism and Magnetic Materials}\ }\textbf
   {\bibinfo {volume} {170}},\ \bibinfo {pages} {29} (\bibinfo {year}
   {1997})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Schmiedeskamp}\ \emph {et~al.}(1988)\citenamefont
-  {Schmiedeskamp}, \citenamefont {Vogt},\ and\ \citenamefont
-  {Heinzmann}}]{schmiedeskamp1988}%
+\bibitem [{\citenamefont {Kuch}\ and\ \citenamefont
+  {Schneider}(2001)}]{kuch2001}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Schmiedeskamp}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Vogt}},\ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
-  {Heinzmann}},\ }\bibfield  {title} {\bibinfo {title} {Experimental
-  verification of a new spin-polarization effect in photoemission:
-  {{Polarized}} photoelectrons from {{Pt}}(111) with linearly polarized
-  radiation in normal incidence and normal emission},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.60.651} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo
-  {pages} {651} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kuch}}\ and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Schneider}},\ }\bibfield  {title} {\bibinfo {title} {Magnetic dichroism in
+  valence band photoemission},\ }\href
+  {https://doi.org/10.1088/0034-4885/64/2/201} {\bibfield  {journal} {\bibinfo
+  {journal} {Reports on Progress in Physics}\ }\textbf {\bibinfo {volume}
+  {64}},\ \bibinfo {pages} {147} (\bibinfo {year} {2001})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Venus}\ \emph {et~al.}(1995)\citenamefont {Venus},
   \citenamefont {Kuch}, \citenamefont {Dittschar}, \citenamefont {Zharnikov},
   \citenamefont {Schneider},\ and\ \citenamefont {Kirschner}}]{venus95}%
@@ -369,15 +366,6 @@
   {https://doi.org/10.1103/PhysRevB.82.195430} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
   {pages} {195430} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Getzlaff}(2022)}]{getzlaff2022}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Getzlaff}},\ }\bibfield  {title} {\bibinfo {title} {Mcdad investigation to
-  characterize the magnetic behavior of thin pd films on co(0001)},\ }\href
-  {https://doi.org/https://doi.org/10.1016/j.elspec.2022.147266} {\bibfield
-  {journal} {\bibinfo  {journal} {Journal of Electron Spectroscopy and Related
-  Phenomena}\ }\textbf {\bibinfo {volume} {261}},\ \bibinfo {pages} {147266}
-  (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Henk}\ and\ \citenamefont
   {Johansson}(1998)}]{henk1998}%
   \BibitemOpen
