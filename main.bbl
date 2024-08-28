@@ -86,8 +86,8 @@
   \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Cebollada}}, \bibinfo
   {author} {\bibfnamefont {R.}~\bibnamefont {Miranda}},\ and\ \bibinfo {author}
   {\bibfnamefont {J.}~\bibnamefont {Kirschner}},\ }\bibfield  {title} {\bibinfo
-  {title} {Observation of magnetic circular dichroism in uv photoemission from
-  ferromagnetic fcc cobalt films},\ }\href
+  {title} {Observation of magnetic circular dichroism in {{UV}} photoemission
+  from ferromagnetic fcc cobalt films},\ }\href
   {https://doi.org/10.1103/PhysRevB.44.12066} {\bibfield  {journal} {\bibinfo
   {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {44}},\ \bibinfo
   {pages} {12066} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
@@ -423,11 +423,10 @@
   {author} {\bibfnamefont {G.}~\bibnamefont {Woltersdorf}},\ and\ \bibinfo
   {author} {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ }\bibfield  {title}
   {\bibinfo {title} {Plasmonic spin-{{Hall}} effect of propagating surface
-  plasmon polaritons in {{Ni}} {\textsubscript{80}} {{Fe}} {\textsubscript{20}}
-  microstructures},\ }\href {https://doi.org/10.1088/1367-2630/ac1c83}
-  {\bibfield  {journal} {\bibinfo  {journal} {New J. Phys.}\ }\textbf {\bibinfo
-  {volume} {23}},\ \bibinfo {pages} {093006} (\bibinfo {year}
-  {2021})}\BibitemShut {NoStop}%
+  plasmon polaritons in {$Ni_{80}Fe_{20}$} microstructures},\ }\href
+  {https://doi.org/10.1088/1367-2630/ac1c83} {\bibfield  {journal} {\bibinfo
+  {journal} {New J. Phys.}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo
+  {pages} {093006} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schumann}\ \emph {et~al.}(2024)\citenamefont
   {Schumann}, \citenamefont {Paleschke}, \citenamefont {Henk}, \citenamefont
   {Widdra},\ and\ \citenamefont {Chiang}}]{schumann2024}%
@@ -480,8 +479,8 @@
   {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont
   {L.}~\bibnamefont {Hammer}},\ and\ \bibinfo {author} {\bibfnamefont
   {K.}~\bibnamefont {Heinz}},\ }\bibfield  {title} {\bibinfo {title}
-  {Reversible h-induced switching of the magnetic easy axis in ni/cu(001) thin
-  films},\ }\href {https://doi.org/10.1103/PhysRevLett.93.247203} {\bibfield
+  {{Reversible H-induced switching of the magnetic easy axis in Ni/Cu(001) thin
+  films}},\ }\href {https://doi.org/10.1103/PhysRevLett.93.247203} {\bibfield
   {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
   {volume} {93}},\ \bibinfo {pages} {247203} (\bibinfo {year}
   {2004})}\BibitemShut {NoStop}%
@@ -570,8 +569,8 @@
   {\bibfnamefont {F.}~\bibnamefont {Büttner}}, \bibinfo {author}
   {\bibfnamefont {K.}~\bibnamefont {Höflich}},\ and\ \bibinfo {author}
   {\bibfnamefont {S.}~\bibnamefont {Eisebitt}},\ }\bibfield  {title} {\bibinfo
-  {title} {Deterministic generation and guided motion of magnetic skyrmions by
-  focused he+-ion irradiation},\ }\href
+  {title} {{Deterministic Generation and Guided Motion of Magnetic Skyrmions by
+  Focused He$^+$-Ion Irradiation}},\ }\href
   {https://doi.org/10.1021/acs.nanolett.2c00670} {\bibfield  {journal}
   {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume} {22}},\
   \bibinfo {pages} {4028} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
