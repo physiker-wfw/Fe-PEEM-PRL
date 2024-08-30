@@ -61,8 +61,8 @@
   {https://doi.org/10.1007/978-3-662-44532-7} {\emph {\bibinfo {title}
   {Magnetic Microscopy of Layered Structures}}},\ \bibinfo {series} {Springer
   Series in Surface Sciences}, Vol.~\bibinfo {volume} {57}\ (\bibinfo
-  {publisher} {Springer},\ \bibinfo {address} {Berlin Heidelberg},\ \bibinfo
-  {year} {2015})\BibitemShut {NoStop}%
+  {publisher} {Springer},\ \bibinfo {address} {Berlin},\ \bibinfo {year}
+  {2015})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Marx}\ \emph {et~al.}(2000)\citenamefont {Marx},
   \citenamefont {Elmers},\ and\ \citenamefont {Sch{\"o}nhense}}]{marx2000}%
   \BibitemOpen
@@ -125,9 +125,8 @@
   \bibinfo {editor} {\bibfnamefont {W.}~\bibnamefont {Beiglb{\"o}ck}}, \bibinfo
   {editor} {\bibfnamefont {H.}~\bibnamefont {Ebert}},\ and\ \bibinfo {editor}
   {\bibfnamefont {G.}~\bibnamefont {Sch{\"u}tz}}}\ (\bibinfo  {publisher}
-  {{Springer Berlin Heidelberg}},\ \bibinfo {address} {{Berlin, Heidelberg}},\
-  \bibinfo {year} {1996})\ pp.\ \bibinfo {pages} {85--104}\BibitemShut
-  {NoStop}%
+  {Springer},\ \bibinfo {address} {{Berlin}},\ \bibinfo {year} {1996})\
+  p.~\bibinfo {pages} {85}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nakagawa}\ \emph {et~al.}(2007)\citenamefont
   {Nakagawa}, \citenamefont {Yokoyama}, \citenamefont {Hosaka},\ and\
   \citenamefont {Katoh}}]{nakagawa2007}%
@@ -183,9 +182,9 @@
   {title} {Threshold photoemission magnetic circular dichroism of
   perpendicularly magnetized {{Ni}} films on {{Cu}}(001): {{Theory}} and
   experiment},\ }\href {https://doi.org/10.1103/PhysRevB.83.132404} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {83}},\ \bibinfo {pages} {132404} (\bibinfo {year} {2011})}\BibitemShut
-  {NoStop}%
+  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {83}},\ \bibinfo {pages} {132404} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Meier}\ \emph {et~al.}(2017)\citenamefont {Meier},
   \citenamefont {Kronseder},\ and\ \citenamefont {Back}}]{meier2017}%
   \BibitemOpen
@@ -195,9 +194,9 @@
   {Back}},\ }\bibfield  {title} {\bibinfo {title} {Domain-width model for
   perpendicularly magnetized systems with {{Dzyaloshinskii-Moriya}}
   interaction},\ }\href {https://doi.org/10.1103/PhysRevB.96.144408} {\bibfield
-   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {96}},\ \bibinfo {pages} {144408} (\bibinfo {year} {2017})}\BibitemShut
-  {NoStop}%
+   {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {96}},\ \bibinfo {pages} {144408} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhao}\ \emph {et~al.}(2019)\citenamefont {Zhao},
   \citenamefont {Lyu}, \citenamefont {Yang}, \citenamefont {Dong},
   \citenamefont {Qi}, \citenamefont {Zhang}, \citenamefont {Zhu}, \citenamefont
@@ -237,8 +236,8 @@
    {title} {\bibinfo {title} {New spin-polarization effect in photoemission
   from nonmagnetic surfaces},\ }\href
   {https://doi.org/10.1103/PhysRevLett.59.934} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
-  {pages} {934} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
+  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {59}},\
+  \bibinfo {pages} {934} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kuch}\ \emph {et~al.}(1996)\citenamefont {Kuch},
   \citenamefont {Dittschar}, \citenamefont {Meinel}, \citenamefont {Zharnikov},
   \citenamefont {Schneider}, \citenamefont {Kirschner}, \citenamefont {Henk},\
@@ -255,7 +254,7 @@
   {title} {Magnetic-circular-dichroism study of the valence states of
   perpendicularly magnetized {{Ni}}(001) films},\ }\href
   {https://doi.org/10.1103/PhysRevB.53.11621} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo
   {pages} {11621} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Feder}\ \emph {et~al.}(1998)\citenamefont {Feder},
   \citenamefont {Henk},\ and\ \citenamefont {Johansson}}]{feder1998}%
@@ -274,9 +273,9 @@
   {Venus}},\ }\bibfield  {title} {\bibinfo {title} {Interrelation of
   magnetic-dichroism effects seen in the angular distribution of photoelectrons
   from surfaces},\ }\href {https://doi.org/10.1103/PhysRevB.49.8821} {\bibfield
-   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {49}},\ \bibinfo {pages} {8821} (\bibinfo {year} {1994})}\BibitemShut
-  {NoStop}%
+   {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {49}},\ \bibinfo {pages} {8821} (\bibinfo {year}
+  {1994})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Venus}(1997)}]{venus1997}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
@@ -310,9 +309,9 @@
   {title} {Spin-dependent surface transmission in 3d metals: Implications for
   magnetic-dichroism measurements of the valence bands},\ }\href
   {https://doi.org/http://dx.doi.org/10.1103/PhysRevB.52.6174} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {52}},\ \bibinfo {pages} {6174} (\bibinfo {year} {1995})}\BibitemShut
-  {NoStop}%
+  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {52}},\ \bibinfo {pages} {6174} (\bibinfo {year}
+  {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hild}\ \emph {et~al.}(2008)\citenamefont {Hild},
   \citenamefont {Maul}, \citenamefont {Meng}, \citenamefont {Kallmayer},
   \citenamefont {Sch{\"o}nhense}, \citenamefont {Elmers}, \citenamefont
@@ -330,9 +329,9 @@
   {Optical magnetic circular dichroism in threshold photoemission from a
   magnetite thin film},\ }\href
   {https://doi.org/10.1088/0953-8984/20/23/235218} {\bibfield  {journal}
-  {\bibinfo  {journal} {J. Phys.: Condens. Matter}\ }\textbf {\bibinfo {volume}
-  {20}},\ \bibinfo {pages} {235218} (\bibinfo {year} {2008})}\BibitemShut
-  {NoStop}%
+  {\bibinfo  {journal} {Journal of Physics: Condensed Matter}\ }\textbf
+  {\bibinfo {volume} {20}},\ \bibinfo {pages} {235218} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hild}\ \emph {et~al.}(2009)\citenamefont {Hild},
   \citenamefont {Maul}, \citenamefont {Sch{\"o}nhense}, \citenamefont {Elmers},
   \citenamefont {Amft},\ and\ \citenamefont {Oppeneer}}]{hild2009}%
@@ -364,7 +363,7 @@
   photoemission magnetic circular dichroism from an ultrathin
   {{Co}}/{{Pt}}(111) film},\ }\href
   {https://doi.org/10.1103/PhysRevB.82.195430} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
   {pages} {195430} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Henk}\ and\ \citenamefont
   {Johansson}(1998)}]{henk1998}%
@@ -408,9 +407,9 @@
   {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ }\bibfield  {title} {\bibinfo
   {title} {Ultrafast coupled charge and spin dynamics in strongly correlated
   {{NiO}}},\ }\href {https://doi.org/10.1038/s41467-020-17925-8} {\bibfield
-  {journal} {\bibinfo  {journal} {Nat Commun}\ }\textbf {\bibinfo {volume}
-  {11}},\ \bibinfo {pages} {4095} (\bibinfo {year} {2020})}\BibitemShut
-  {NoStop}%
+  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf {\bibinfo
+  {volume} {11}},\ \bibinfo {pages} {4095} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Paleschke}\ \emph {et~al.}(2021)\citenamefont
   {Paleschke}, \citenamefont {Chiang}, \citenamefont {Brandt}, \citenamefont
   {Liebing}, \citenamefont {Woltersdorf},\ and\ \citenamefont
@@ -423,10 +422,10 @@
   {author} {\bibfnamefont {G.}~\bibnamefont {Woltersdorf}},\ and\ \bibinfo
   {author} {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ }\bibfield  {title}
   {\bibinfo {title} {Plasmonic spin-{{Hall}} effect of propagating surface
-  plasmon polaritons in {$Ni_{80}Fe_{20}$} microstructures},\ }\href
+  plasmon polaritons in {Ni$_{80}$Fe$_{20}$} microstructures},\ }\href
   {https://doi.org/10.1088/1367-2630/ac1c83} {\bibfield  {journal} {\bibinfo
-  {journal} {New J. Phys.}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo
-  {pages} {093006} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume} {23}},\
+  \bibinfo {pages} {093006} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schumann}\ \emph {et~al.}(2024)\citenamefont
   {Schumann}, \citenamefont {Paleschke}, \citenamefont {Henk}, \citenamefont
   {Widdra},\ and\ \citenamefont {Chiang}}]{schumann2024}%
@@ -452,7 +451,7 @@
   metal oxide surfaces: {{A}} time-resolved two-photon photoemission study on
   ultrathin {{NiO}} films},\ }\href
   {https://doi.org/10.1103/PhysRevB.97.085424} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
   {pages} {085424} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Henk}\ \emph {et~al.}(1999)\citenamefont {Henk},
   \citenamefont {Niklasson},\ and\ \citenamefont {Johansson}}]{henk1999}%
@@ -463,7 +462,7 @@
   {Johansson}},\ }\bibfield  {title} {\bibinfo {title} {{Magnetism and
   anisotropy of ultrathin Ni films on Cu(001)}},\ }\href
   {https://doi.org/10.1103/PhysRevB.59.9332} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
   {pages} {9332} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sander}\ \emph {et~al.}(2004)\citenamefont {Sander},
   \citenamefont {Pan}, \citenamefont {Ouazi}, \citenamefont {Kirschner},

@@ -1,5 +1,8 @@
 \documentclass[prl,twocolumn,floatfix,superscriptaddress,aps]{revtex4-2}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
 \usepackage{graphicx}
 \usepackage{bm}
 
@@ -62,7 +65,7 @@ The extension of this description to threshold photoemission predicted that expe
 % \paragraph{Conceptual basis.} 
 For a simplified conceptual approach, we consider a surface with fourfold symmetry, as e.g. the (001) fcc or bcc surfaces with magnetic easy axes along one of the four [100] 
 or [110] 
-directions. Let us assume light incidence along the surface normal (Fig.~\ref{fig:symmetry} for $\theta = 0$). The photoemission intensity of electrons detected with off-normal wavevector $\vec{k}$ depends then on the helicity, $\sigma_{+}$ or $\sigma_{-}$, of the incident circular polarized laser radiation and on the two orientations $\pm M$ of the in-plane magnetization in a selected domain, yielding four intensities $I_{\vec{k}}(\sigma_{\pm}, \pm M)$ (shortened $I_{\pm \pm}$). The latter intensities are combined into the total intensity
+directions. Let us assume light incidence along the surface normal (the case of $\theta = 0$ in Fig.~\ref{fig:symmetry}). The photoemission intensity of electrons detected with off-normal wavevector $\vec{k}$ depends then on the helicity, $\sigma_{+}$ or $\sigma_{-}$, of the incident circular polarized laser radiation and on the two orientations $\pm M$ of the in-plane magnetization in a selected domain, yielding four intensities $I_{\vec{k}}(\sigma_{\pm}, \pm M)$ (shortened $I_{\pm \pm}$). The latter intensities are combined into the total intensity
 \begin{align}
     I & \equiv I_{+ +} + I_{+ -} + I_{- +} + I_{- -}. 
 \end{align}
@@ -81,7 +84,7 @@ In the polarization asymmetry $A_{\mathrm{pol}}$ the magnetization's orientation
 \begin{figure}
     \centering
     \includegraphics[width = \columnwidth]{symmetry}
-    \caption{Symmetry analysis. A circular polarized laser pulse (orange, with helicity $\sigma_{+}$ impinges onto a magnetic domain (rectangular solid)). The light incidence direction and the surface normal ($z$-axis) span the scattering plane (blue; $xz$-plane) with the magnetization direction $\vec{M}$ oriented within (a) or perpendicular (b) to the scattering plane, respectively. The off-normal detection of photoelectrons with wavevector $\vec{k}$ (black arrow) results in a chiral setup.}
+    \caption{Symmetry analysis. A circular polarized laser pulse (orange, with helicity $\sigma_{+}$ impinges onto a magnetic domain (rectangular solid). The light incidence direction and the surface normal ($z$-axis) span the scattering plane (blue; $xz$-plane) with the magnetization direction $\vec{M}$ oriented within (a) or perpendicular (b) to the scattering plane, respectively. The off-normal detection of photoelectrons with wavevector $\vec{k}$ (black arrow) results in a chiral setup.}
     \label{fig:symmetry}
 \end{figure}
 
@@ -91,12 +94,12 @@ If the scattering plane is a mirror plane of the lattice, the photoemission inte
 In the following, we compare theoretical MCD asymmetries based on relativistic photoemission computations for Fe(001), briefly described in the Supplemental Material~\cite{Supplement}, with corresponding experimental results for a photon energy of $\unit[5.2]{eV}$. The photocurrent has been recorded for $\unit[65]{^{\circ}}$ grazing light incidence within the [100] high-symmetry direction in a standard PEEM setup (Focus GmbH, Hünstetten). As light source either a mercury discharge lamp or the frequency-doubled output of a non-collinear optical amplifier (NOPA) with circular polarization optics is used \cite{duncker2012,gillmeister2020, paleschke2021}. 
 
 % \paragraph{Contrast mechanisms.} 
-The $k_{\parallel}$-dependent pattern of the polarization asymmetry $A_{\mathrm{pol}}$, defined in Eq.~\eqref{eq:Apol} and depicted in Fig.~\ref{fig:Apol}, depends on the binding energy of the initial states. Both experimental (left column) and theoretical data (right column) show that this contrast mechanism is sizable with absolute values up to about $\unit[20]{\%}$ in experiment and $\unit[40]{\%}$ in theory; it can thus hardly be ignored. 
+The $\vec{k}_{\parallel}$-dependent pattern of the polarization asymmetry $A_{\mathrm{pol}}$, defined in Eq.~\eqref{eq:Apol} and depicted in Fig.~\ref{fig:Apol}, depends on the binding energy of the initial states. Both experimental (left column) and theoretical data (right column) show that this contrast mechanism is sizable with absolute values up to about $\unit[20]{\%}$ in experiment and $\unit[40]{\%}$ in theory; it can thus hardly be ignored. 
 
 \begin{figure}
     \centering
     \includegraphics[width = 0.7\columnwidth]{FePaperApol.pdf}
-    \caption{Momentum-resolved polarization asymmetry $A_{\mathrm{pol}}$ of Fe(001) at selected binding energies for 65° grazing light incidence. Left column: experimental results. The arrow marked $h \nu$ indicates the light incidence direction. The arrows $\textsf{M}$ represent the two magnetization directions considered for $A_{\mathrm{pol}}$. Right column: respective theoretical results obtained from photoemission calculations. The binding energy is indicated at each panel. The color scale, showing $A_{\mathrm{pol}}$ as defined in Eq.~\eqref{eq:Apol} in percent, is identical for all panels in this column. 
+    \caption{Momentum-resolved polarization asymmetry $A_{\mathrm{pol}}$ of Fe(001) at selected binding energies for 65° grazing light incidence. Left column: experimental results. The arrow marked $h \nu$ indicates the light incidence direction. The arrows $\textsf{M}$ represent the two magnetization directions considered for $A_{\mathrm{pol}}$. Right column: respective theoretical results obtained from photoemission calculations. The binding energy is indicated at each panel. The color scale, showing $A_{\mathrm{pol}}$ as defined in Eq.~\eqref{eq:Apol} in percent, is identical for all panels in a column. 
     }
     % Colorbar range in experimental Fe(001) A_pol data is always 40%.
     % The center position (white color value) is slightly adapted to the background such that the k_x=0 line is close to zero. This leads to the following five center positions (in %):
@@ -109,14 +112,14 @@ The $k_{\parallel}$-dependent pattern of the polarization asymmetry $A_{\mathrm{
     \label{fig:Apol}
 \end{figure}
 
-The theoretical pattern in the momentum space (right column in Fig.~\ref{fig:Apol}) exhibits a nodal line at $k_{y} = 0$ and almost a nodal line at $k_{x} = 0$. Moreover, one finds a change of sign if $k_{y}$ is reversed. These features are imposed by the symmetry of the setup. Note that an anti-symmetric pattern with respect to the $k_{x} = 0$ \textit{and} $k_{y} = 0$ lines follows strictly only for normal light incidence \cite{schumann2024}. However, the breaking of the anti-symmetric behavior with respect to the $k_{x} = 0$ line due to the off-normal light incidence is only hardly visible. The experimental data (left column) display the same features and the overall agreement between experiment and theory is remarkably good, which includes also the sign change for binding energies above and below 0.2\,eV. Note that the experimental asymmetries have been determined from two independent sets of 2D momentum maps for magnetization directions $+\vec{M}$ and $-\vec{M}$ oriented along the +x and -x directions, respectively, via selection of appropriate individual magnetic domains.
+The theoretical pattern in the momentum space (right column in Fig.~\ref{fig:Apol}) exhibits a nodal line at $k_{y} = 0$ and almost a nodal line at $k_{x} = 0$. Moreover, one finds a change of sign if $k_{y}$ is reversed. These features are imposed by the symmetry of the setup. Note that an anti-symmetric pattern with respect to the $k_{x} = 0$ \textit{and} $k_{y} = 0$ lines follows strictly only for normal light incidence \cite{schumann2024}. However, the breaking of the anti-symmetric behavior with respect to the $k_{x} = 0$ line due to the off-normal light incidence is hardly visible. The experimental data (left column) display the same features and the overall agreement between experiment and theory is remarkably good, which includes also the sign change for binding energies above and below 0.2\,eV. Note that the experimental asymmetries have been determined from two independent sets of 2D momentum maps for magnetization directions $+\vec{M}$ and $-\vec{M}$ oriented along the +x and -x directions, respectively, via selection of appropriate individual magnetic domains.
 
 The momentum-dependent exchange asymmetry $A_{\mathrm{ex}}$, defined in Eq.~\eqref{eq:Aex} and shown in Fig.~\ref{fig:Aex}, exhibits absolute values up to $\unit[10]{\%}$ in theory and $\unit[6]{\%}$ in experiment, which are an order-of-magnitude stronger effects than previously observed \cite{marx2000}. An odd symmetry of the momentum-dependent $A_{\mathrm{ex}}$ pattern with respect to the $k_{x} = 0$ line would be expected for normal light incidence \cite{schumann2024}. However, for the grazing light incidence here, we find a clear deviation, which results in a curved nodal line between the regions of positive and negative $A_{\mathrm{ex}}$. With respect to the $k_{y} = 0$ line, both experiments and theoretical calculations show a mirror-symmetric pattern in contrast to $A_{\mathrm{pol}}$. The absolute $A_{\mathrm{ex}}$ values, including the sign, depend on the initial state binding energy via the band structure and photoemission matrix elements.
 
 \begin{figure}
     \centering
     \includegraphics[width = 0.7\columnwidth]{FePaperAex.pdf}
-    \caption{Momentum-resolved exchange asymmetry $A_{\mathrm{ex}}$ of Fe(001) at selected binding energies, as in Fig.~\ref{fig:Apol}. Left column: experimental PEEM data, right column: respective data from  photoemission calculations. Small differences with respect to an odd symmetry upon reversal of $k_{x}$ result from grazing light incidence. For normal incidence they are absent.}
+    \caption{Momentum-resolved exchange asymmetry $A_{\mathrm{ex}}$ of Fe(001) at selected binding energies, as in Fig.~\ref{fig:Apol}. Left column: experimental PEEM data, right column: respective data from  photoemission calculations. Small differences with respect to an odd symmetry upon reversal of $k_{x}$ result from off-normal light incidence. For normal incidence they are absent.}
     % Colorbar range in experimental Fe(001) A_ex data is always 12%.
     % The center position (white color value) is slightly adapted to the background such that the k_x=0 line is close to zero. This leads to the following five center positions (in %):
     % 	0.05 eV:  12
@@ -140,7 +143,7 @@ Depending on the position of the aperture the contrast of specific domains is in
     \centering
     \includegraphics[width = 0.7\columnwidth]{FePaper9FelderSchema.pdf}
     \caption{Darkfield MCD imaging of Fe(100). Top: Schematics of the nine aperture positions in the momentum plane, with a momentum-resolved $A_{\mathrm{ex}}$ pattern as background. Bottom: Domain imaging using the nine aperture positions shown above. ($h \nu = \unit[5.2]{eV}$, 
-    maximum domain contrast is between 3 and $\unit[4]{\%}$, field of view $56\times56\,\mu m^2$ each.)}
+    maximum domain contrast is between 3 and $\unit[4]{\%}$, field of view $\unit[56 \times 56]{\mu m^2}$ each.)}
         % Positions of the momentum aperture (kx, ky) in $\AA^{-1}$:
         %       (aperture radius = 0.3)
         % upper left (-0.27, 0.17)
@@ -166,9 +169,9 @@ The magnitude of $A_{\mathrm{ex}}$ and, therefore, of the MCD contrast in PEEM f
 As a second, magnetically similar system we studied the oxygen-passivated Fe(001)-(1$\times$1)-O surface with darkfield threshold PEEM, as described above. It yields very similar $A_{\mathrm{pol}}$ and $A_{\mathrm{ex}}$ patterns as those for bare Fe(001) (not shown here), which reverse sign at a binding energy of approximately $\unit[0.2]{eV}$. Momentum-selected $A_{\mathrm{ex}}$ data from momentum-resolved PEEM measurements on 
 the two in $\pm$\,x direction magnetized domains are shown in Fig.~\ref{fig:AexContrast}(b) for positive $k_x$ as blue squares and for negative $k_x$ as red circles. 
 
-Using an angle-resolved photoelectron spectroscopy (ARPES) setup described previously~\cite{gillmeister2018, gillmeister2020}, the magnetic circular dichroism is analyzed in an independent experiment with higher energy resolution for an $\unit[11]{nm}$ thick Fe(001)-(1$\times$1)-O thin film grown on MgO(001). For fully in +x or -x direction magnetized films, the exchange asymmetry $A_{\mathrm{ex}}$ is depicted in an energy vs momentum map in Fig.~\ref{fig:AexContrast}(a). Note that the acceptance angle of the ARPES spectrometer is limited to $\pm15$\textdegree. Both datasets show large $A_{\mathrm{ex}}$ values, which switch sign upon reversal of $k_x$. At the Fermi level and at $E_{\mathrm{B}} = \unit[0.45]{eV}$ we find strong contrast of about $\unit[5]{\%}$ between $A_{\mathrm{ex}}$ values of +2 and $\unit[-3]{\%}$ with a contrast reversal between 0.15 and $\unit[0.25]{eV}$. We recall that this observation calls for exact threshold photoexcitation or for an energy-resolved electron detection in order to obtain high MCD signals. 
+Using an angle-resolved photoelectron spectroscopy (ARPES) setup described previously~\cite{gillmeister2018, gillmeister2020}, the magnetic circular dichroism is analyzed in an independent experiment with higher energy resolution for an $\unit[11]{nm}$ thick Fe(001)-(1$\times$1)-O thin film grown on MgO(001). For fully in $+x$ or $-x$ direction magnetized films, the exchange asymmetry $A_{\mathrm{ex}}$ is depicted in an energy vs momentum map in Fig.~\ref{fig:AexContrast}(a). Note that the acceptance angle of the ARPES spectrometer is limited to $\pm15$\textdegree. Both datasets show large $A_{\mathrm{ex}}$ values, which switch sign upon reversal of $k_x$. At the Fermi level and at $E_{\mathrm{B}} = \unit[0.45]{eV}$ we find strong contrast of about $\unit[5]{\%}$ between $A_{\mathrm{ex}}$ values of +2 and $\unit[-3]{\%}$ with a contrast reversal between 0.15 and $\unit[0.25]{eV}$. We note that this observation requires either precise threshold photoexcitation or energy-resolved electron detection to achieve high MCD signals.
 % Otherwise positive and negative exchange asymmetries will partly cancel each other.
-This spectroscopic observations together with our microscopy data demonstrate that the full energy-momentum phase space of electronic states even for the paradigmatic system such as Fe can be fully utilized for magnetic dichroic domain imaging.
+These spectroscopic observations, together with our microscopy data, demonstrate that the full energy-momentum phase space of electronic states, even for paradigmatic systems such as Fe, can be fully utilized for magnetic dichroic domain imaging.
 
 \begin{figure}
     \centering
@@ -186,7 +189,8 @@ This study demonstrates that magnetic domains can be imaged with high contrast u
 
 The most promising potential of this technique lies in its ability to investigate ultrafast magnetization dynamics using femtosecond laser pulses in an optical pump and threshold UV photoemission probe scheme. This capability opens new avenues for studying the ultrafast motion of domain walls \cite{parkin2008} or large skyrmions on nanometer length scales \cite{goebel2019,jani2021,kern2022}.
 
-\paragraph{Acknowledgments.} This work is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) -- Project-ID 328545488 -- TRR~227, projects~A06 and~B04.
+\paragraph{Acknowledgments.} 
+The authors thank R. Feder for fruitful discussions. We gratefully acknowledge the financial support by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) -- Project-ID 328545488 -- TRR~227, projects~A06 and~B04.
 
 % \bibliographystyle{}
 \bibliography{references}
