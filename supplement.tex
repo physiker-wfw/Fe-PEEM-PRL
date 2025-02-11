@@ -18,7 +18,6 @@
 \renewcommand{\vec}[1]{\boldsymbol{#1}}
 
 \begin{document} 
-% \begin{sloppy}
 
 \title{Magnetic dichroism in darkfield UV photoemission electron microscopy  \\ --- Supplemental Material ---}
 
@@ -40,11 +39,11 @@
 \maketitle
 
 \section{Electronic-structure and photoemission calculations}
-For the calculations of the electronic structure and the photoemission intensities we used our computer program package \textsc{omni}, which is based on the spin-polarized relativistic layer Korringa-Kohn-Rostoker method (KKR). Solving the Dirac equation for a magnetic material, exchange splitting and spin-orbit coupling are treated on equal footing. \textsc{omni} has proven its quality in a number of publications, see for example Ref.~\onlinecite{tusche2018} and references therein.
+For the calculations of the electronic structure and the photoemission intensities we used our computer program package \textsc{omni}, which is based on the spin-polarized relativistic layer Korringa-Kohn-Rostoker method (KKR; a brief introduction can be found in Ref.~\onlinecite{Henk02c}\nocite{Nalwa01a}). Solving the Dirac equation for a magnetic material, exchange splitting and spin-orbit coupling are treated on equal footing. \textsc{omni} has proven its quality in a number of publications, see for example Ref.~\onlinecite{tusche2018} and references therein.
 
-The sample is taken as semi-infinite Fe(100), for which the muffin-tin potentials of the first \todo[inline]{Insert number} layers deviate from that of bulk layers. \todo[inline]{Relaxation?} For the image-potential barrier we take the \todo[inline]{Add form} form \todo[inline]{Add reference}.
+The sample is taken as semi-infinite Fe(100), for which the muffin-tin potentials of the first seven layers deviate from that of bulk layers. For the image-potential barrier we take a smooth shape described in Ref.~\onlinecite{henk1993}.
 
-Self-consistent electronic-structure calculations have been performed using the local spin-density approximation for the exchange-correlation functional in density-functional theory. For solving the single-site scattering problem, the layer-KKR method uses an expansion of the scattering solutions with respect to angular momentum, in this work up to $l_{\mathrm{max}} = ?$\todo[inline]{Add number}. The interlayer scattering relies on a  plane-wave expansion, here with an energy cut-off of $\hbar^{2}\vec{k}_{\parallel}^{2} / 2 m \leq \unit[?]{H}$.\todo[inline]{Add number}. The calculated bulk and the surface electronic structures as well as the layer-resolved magnetic moments agree with those computed and published elsewhere. 
+Self-consistent electronic-structure calculations have been performed using the local spin-density approximation for the exchange-correlation functional in density-functional theory. For solving the single-site scattering problem, the layer-KKR method uses an expansion of the scattering solutions with respect to angular momentum, in this work up to $l_{\mathrm{max}} = 3$. The potentials of the seven outermost layers of the semi-infinite system differ from that of the remainder (bulk). The interlayer scattering relies on a plane-wave expansion, here with at least 45~beams. The calculated bulk and the surface electronic structures as well as the layer-resolved magnetic moments agree with those computed and published elsewhere. 
 
 The results of the electronic-structure calculations serve as basis for the spin- and angle-resolved photoemission calculations, for which the same potentials as for the electronic-structure calculations are used. The spin-polarized photocurrent is calculated within the one-step model of photoemission, taking a time-reversed LEED state as final state. Photoelectrons excited within the topmost $50$~layers are considered in order to obtain converged intensities and spin polarizations. The calculated spin-density matrix of the photoelectron allows to derive all components of the photoelectron's spin polarization vector. 
 
@@ -103,10 +102,5 @@ A third asymmetry,
 quantifies the spin polarization produced by optical orientation, aka Fano effect, which requires spin-orbit coupling (SOC).
 
 \bibliography{references} 
-
-% \listoftodos
-
     
-% \end{sloppy}
-
 \end{document}
