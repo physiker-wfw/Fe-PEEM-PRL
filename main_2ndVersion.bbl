@@ -1,0 +1,846 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{46}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Yoshida}\ \emph {et~al.}(2014)\citenamefont
+  {Yoshida}, \citenamefont {Aizawa}, \citenamefont {Wang}, \citenamefont
+  {Oshima}, \citenamefont {Mera}, \citenamefont {Matsuyama}, \citenamefont
+  {Oigawa}, \citenamefont {Takeuchi},\ and\ \citenamefont
+  {Shigekawa}}]{yoshida14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Yoshida}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Aizawa}},
+  \bibinfo {author} {\bibfnamefont {Z.-h.}\ \bibnamefont {Wang}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Oshima}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Mera}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Matsuyama}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Oigawa}}, \bibinfo {author} {\bibfnamefont
+  {O.}~\bibnamefont {Takeuchi}},\ and\ \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Shigekawa}},\ }\bibfield  {title} {\bibinfo {title}
+  {Probing ultrafast spin dynamics with optical pump–probe scanning
+  tunnelling microscopy},\ }\href {https://doi.org/10.1038/nnano.2014.125}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf
+  {\bibinfo {volume} {9}},\ \bibinfo {pages} {588} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Müller}(2024)}]{mueller24}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Müller}},\ }\bibfield  {title} {\bibinfo {title} {Imaging surfaces at the
+  space–time limit: New perspectives of time-resolved scanning tunneling
+  microscopy for ultrafast surface science},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.progsurf.2023.100727} {\bibfield
+  {journal} {\bibinfo  {journal} {Progress in Surface Science}\ }\textbf
+  {\bibinfo {volume} {99}},\ \bibinfo {pages} {100727} (\bibinfo {year}
+  {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Roelcke}\ \emph {et~al.}(2024)\citenamefont
+  {Roelcke}, \citenamefont {Kastner}, \citenamefont {Graml}, \citenamefont
+  {Biereder}, \citenamefont {Wilhelm}, \citenamefont {Repp}, \citenamefont
+  {Huber},\ and\ \citenamefont {Gerasimenko}}]{roelcke24}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Roelcke}}, \bibinfo {author} {\bibfnamefont {L.~Z.}\ \bibnamefont
+  {Kastner}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Graml}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Biereder}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Wilhelm}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Repp}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Huber}},\ and\ \bibinfo {author} {\bibfnamefont {Y.~A.}\
+  \bibnamefont {Gerasimenko}},\ }\bibfield  {title} {\bibinfo {title}
+  {Ultrafast atomic-scale scanning tunnelling spectroscopy of a single vacancy
+  in a monolayer crystal},\ }\href {https://doi.org/10.1038/s41566-024-01390-6}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Photonics}\ }\textbf
+  {\bibinfo {volume} {18}},\ \bibinfo {pages} {595} (\bibinfo {year}
+  {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rubiano~da Silva}\ \emph {et~al.}(2018)\citenamefont
+  {Rubiano~da Silva}, \citenamefont {Möller}, \citenamefont {Feist},
+  \citenamefont {Ulrichs}, \citenamefont {Ropers},\ and\ \citenamefont
+  {Schäfer}}]{daSilva18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Rubiano~da Silva}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Möller}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Feist}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ulrichs}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Ropers}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Schäfer}},\ }\bibfield  {title} {\bibinfo
+  {title} {Nanoscale mapping of ultrafast magnetization dynamics with
+  femtosecond {L}orentz microscopy},\ }\href
+  {https://doi.org/10.1103/PhysRevX.8.031052} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review X}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo
+  {pages} {031052} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Möller}\ \emph {et~al.}(2020)\citenamefont
+  {Möller}, \citenamefont {Gaida}, \citenamefont {Schäfer},\ and\
+  \citenamefont {Ropers}}]{moeller20}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Möller}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Gaida}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Schäfer}},\ and\
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Ropers}},\ }\bibfield
+  {title} {\bibinfo {title} {Few-nm tracking of current-driven magnetic vortex
+  orbits using ultrafast {L}orentz microscopy},\ }\href
+  {https://doi.org/10.1038/s42005-020-0301-y} {\bibfield  {journal} {\bibinfo
+  {journal} {Communications Physics}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {36} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tengdin}\ \emph {et~al.}(2022)\citenamefont
+  {Tengdin}, \citenamefont {Truc}, \citenamefont {Sapozhnik}, \citenamefont
+  {Kong}, \citenamefont {del Ser}, \citenamefont {Gargiulo}, \citenamefont
+  {Madan}, \citenamefont {Schönenberger}, \citenamefont {Baral}, \citenamefont
+  {Che}, \citenamefont {Magrez}, \citenamefont {Grundler}, \citenamefont
+  {Rønnow}, \citenamefont {Lagrange}, \citenamefont {Zang}, \citenamefont
+  {Rosch},\ and\ \citenamefont {Carbone}}]{tengdin20}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Tengdin}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Truc}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Sapozhnik}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Kong}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {del Ser}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Gargiulo}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Madan}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Schönenberger}}, \bibinfo {author} {\bibfnamefont
+  {P.~R.}\ \bibnamefont {Baral}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Che}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Magrez}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Grundler}},
+  \bibinfo {author} {\bibfnamefont {H.~M.}\ \bibnamefont {Rønnow}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Lagrange}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Zang}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Rosch}},\ and\ \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Carbone}},\ }\bibfield  {title} {\bibinfo {title} {Imaging
+  the ultrafast coherent control of a skyrmion crystal},\ }\href
+  {https://doi.org/10.1103/PhysRevX.12.041030} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review X}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo
+  {pages} {041030} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kuch}\ \emph {et~al.}(2015)\citenamefont {Kuch},
+  \citenamefont {Schäfer}, \citenamefont {Fischer},\ and\ \citenamefont
+  {Hillebrecht}}]{kuch15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kuch}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Schäfer}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Fischer}},\ and\ \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Hillebrecht}},\ }\href
+  {https://doi.org/10.1007/978-3-662-44532-7} {\emph {\bibinfo {title}
+  {Magnetic Microscopy of Layered Structures}}},\ \bibinfo {series} {Springer
+  Series in Surface Sciences}, Vol.~\bibinfo {volume} {57}\ (\bibinfo
+  {publisher} {Springer},\ \bibinfo {address} {Berlin},\ \bibinfo {year}
+  {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kutnyakhov}\ \emph {et~al.}(2020)\citenamefont
+  {Kutnyakhov}, \citenamefont {Xian}, \citenamefont {Dendzik}, \citenamefont
+  {Heber}, \citenamefont {Pressacco}, \citenamefont {Agustsson}, \citenamefont
+  {Wenthaus}, \citenamefont {Meyer}, \citenamefont {Gieschen}, \citenamefont
+  {Mercurio}, \citenamefont {Benz}, \citenamefont {Bühlman}, \citenamefont
+  {Däster}, \citenamefont {Gort}, \citenamefont {Curcio}, \citenamefont
+  {Volckaert}, \citenamefont {Bianchi}, \citenamefont {Sanders}, \citenamefont
+  {Miwa}, \citenamefont {Ulstrup}, \citenamefont {Oelsner}, \citenamefont
+  {Tusche}, \citenamefont {Chen}, \citenamefont {Vasilyev}, \citenamefont
+  {Medjanik}, \citenamefont {Brenner}, \citenamefont {Dziarzhytski},
+  \citenamefont {Redlin}, \citenamefont {Manschwetus}, \citenamefont {Dong},
+  \citenamefont {Hauer}, \citenamefont {Rettig}, \citenamefont {Diekmann},
+  \citenamefont {Rossnagel}, \citenamefont {Demsar}, \citenamefont {Elmers},
+  \citenamefont {Hofmann}, \citenamefont {Ernstorfer}, \citenamefont
+  {Schönhense}, \citenamefont {Acremann},\ and\ \citenamefont
+  {Wurth}}]{Kutnyakhov20}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Kutnyakhov}}, \bibinfo {author} {\bibfnamefont {R.~P.}\ \bibnamefont
+  {Xian}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Dendzik}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Heber}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Pressacco}}, \bibinfo {author}
+  {\bibfnamefont {S.~Y.}\ \bibnamefont {Agustsson}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Wenthaus}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Meyer}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Gieschen}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Mercurio}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Benz}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Bühlman}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Däster}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Gort}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Curcio}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Volckaert}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Bianchi}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Sanders}}, \bibinfo {author} {\bibfnamefont {J.~A.}\
+  \bibnamefont {Miwa}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ulstrup}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Oelsner}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Tusche}}, \bibinfo
+  {author} {\bibfnamefont {Y.-J.}\ \bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Vasilyev}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Medjanik}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Brenner}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Dziarzhytski}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Redlin}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Manschwetus}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Dong}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Hauer}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Rettig}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Diekmann}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Rossnagel}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Demsar}}, \bibinfo {author} {\bibfnamefont
+  {H.-J.}\ \bibnamefont {Elmers}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Hofmann}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Ernstorfer}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Schönhense}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Acremann}},\ and\ \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Wurth}},\ }\bibfield  {title} {\bibinfo {title} {Time- and
+  momentum-resolved photoemission studies using time-of-flight momentum
+  microscopy at a free-electron laser},\ }\href
+  {https://doi.org/10.1063/1.5118777} {\bibfield  {journal} {\bibinfo
+  {journal} {Review of Scientific Instruments}\ }\textbf {\bibinfo {volume}
+  {91}},\ \bibinfo {pages} {013109} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Schönhense}\ \emph {et~al.}(2018)\citenamefont
+  {Schönhense}, \citenamefont {Medjanik}, \citenamefont {Fedchenko},
+  \citenamefont {Chernov}, \citenamefont {Ellguth}, \citenamefont {Vasilyev},
+  \citenamefont {Oelsner}, \citenamefont {Viefhaus}, \citenamefont
+  {Kutnyakhov}, \citenamefont {Wurth}, \citenamefont {Elmers},\ and\
+  \citenamefont {Schönhense}}]{Schoenhense18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Schönhense}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Medjanik}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Fedchenko}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Chernov}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Ellguth}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Vasilyev}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Oelsner}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Viefhaus}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Kutnyakhov}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Wurth}}, \bibinfo {author} {\bibfnamefont {H.~J.}\
+  \bibnamefont {Elmers}},\ and\ \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Schönhense}},\ }\bibfield  {title} {\bibinfo {title}
+  {Multidimensional photoemission spectroscopy—the space-charge limit},\
+  }\href {https://doi.org/10.1088/1367-2630/aaa262} {\bibfield  {journal}
+  {\bibinfo  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume}
+  {20}},\ \bibinfo {pages} {033004} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Schönhense}\ \emph {et~al.}(2021)\citenamefont
+  {Schönhense}, \citenamefont {Kutnyakhov}, \citenamefont {Pressacco},
+  \citenamefont {Heber}, \citenamefont {Wind}, \citenamefont {Agustsson},
+  \citenamefont {Babenkov}, \citenamefont {Vasilyev}, \citenamefont
+  {Fedchenko}, \citenamefont {Chernov}, \citenamefont {Rettig}, \citenamefont
+  {Schönhense}, \citenamefont {Wenthaus}, \citenamefont {Brenner},
+  \citenamefont {Dziarzhytski}, \citenamefont {Palutke}, \citenamefont
+  {Mahatha}, \citenamefont {Schirmel}, \citenamefont {Redlin}, \citenamefont
+  {Manschwetus}, \citenamefont {Hartl}, \citenamefont {Matveyev}, \citenamefont
+  {Gloskovskii}, \citenamefont {Schlueter}, \citenamefont {Shokeen},
+  \citenamefont {Duerr}, \citenamefont {Allison}, \citenamefont {Beye},
+  \citenamefont {Rossnagel}, \citenamefont {Elmers},\ and\ \citenamefont
+  {Medjanik}}]{Schoenhense21}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Schönhense}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Kutnyakhov}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Pressacco}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Heber}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Wind}}, \bibinfo {author}
+  {\bibfnamefont {S.~Y.}\ \bibnamefont {Agustsson}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Babenkov}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Vasilyev}}, \bibinfo {author}
+  {\bibfnamefont {O.}~\bibnamefont {Fedchenko}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Chernov}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Rettig}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Schönhense}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Wenthaus}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Brenner}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Dziarzhytski}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Palutke}}, \bibinfo {author} {\bibfnamefont {S.~K.}\
+  \bibnamefont {Mahatha}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Schirmel}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Redlin}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Manschwetus}}, \bibinfo
+  {author} {\bibfnamefont {I.}~\bibnamefont {Hartl}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Matveyev}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Gloskovskii}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Schlueter}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Shokeen}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Duerr}}, \bibinfo {author} {\bibfnamefont {T.~K.}\
+  \bibnamefont {Allison}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Beye}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Rossnagel}},
+  \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont {Elmers}},\ and\
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Medjanik}},\ }\bibfield
+  {title} {\bibinfo {title} {Suppression of the vacuum space-charge effect in
+  fs-photoemission by a retarding electrostatic front lens},\ }\href
+  {https://doi.org/10.1063/5.0046567} {\bibfield  {journal} {\bibinfo
+  {journal} {Review of Scientific Instruments}\ }\textbf {\bibinfo {volume}
+  {92}},\ \bibinfo {pages} {053703} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Marx}\ \emph {et~al.}(2000)\citenamefont {Marx},
+  \citenamefont {Elmers},\ and\ \citenamefont {Sch{\"o}nhense}}]{marx2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~K.~L.}\
+  \bibnamefont {Marx}}, \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {Elmers}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Sch{\"o}nhense}},\ }\bibfield  {title} {\bibinfo {title} {Magneto-optical
+  {{Linear Dichroism}} in {{Threshold Photoemission Electron Microscopy}} of
+  {{Polycrystalline Fe Films}}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.84.5888} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {84}},\
+  \bibinfo {pages} {5888} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schneider}\ \emph {et~al.}(1991)\citenamefont
+  {Schneider}, \citenamefont {Hammond}, \citenamefont {Schuster}, \citenamefont
+  {Cebollada}, \citenamefont {Miranda},\ and\ \citenamefont
+  {Kirschner}}]{schneider1991}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Schneider}}, \bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
+  {Hammond}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Schuster}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Cebollada}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Miranda}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Kirschner}},\ }\bibfield  {title} {\bibinfo
+  {title} {Observation of magnetic circular dichroism in {{UV}} photoemission
+  from ferromagnetic fcc cobalt films},\ }\href
+  {https://doi.org/10.1103/PhysRevB.44.12066} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {44}},\ \bibinfo
+  {pages} {12066} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Henk}\ \emph {et~al.}(1996)\citenamefont {Henk},
+  \citenamefont {Scheunemann}, \citenamefont {Halilov},\ and\ \citenamefont
+  {Feder}}]{henk1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Henk}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Scheunemann}},
+  \bibinfo {author} {\bibfnamefont {S.~V.}\ \bibnamefont {Halilov}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Feder}},\ }\bibfield
+  {title} {\bibinfo {title} {Magnetic dichroism and electron spin polarization
+  in photoemission: Analytical results},\ }\href
+  {https://doi.org/10.1088/0953-8984/8/1/007} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Physics: Condensed Matter}\ }\textbf {\bibinfo {volume}
+  {8}},\ \bibinfo {pages} {47} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Feder}\ and\ \citenamefont {Henk}(1996)}]{feder1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Feder}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Henk}},\
+  }\bibfield  {title} {\bibinfo {title} {Magnetic dichroism and spin
+  polarization in valence band photoemission},\ }in\ \href
+  {https://doi.org/10.1007/BFb0102343} {\emph {\bibinfo {booktitle}
+  {Spin-{{Orbit-Influenced Spectroscopies}} of {{Magnetic Solids}}}}},\ Vol.\
+  \bibinfo {volume} {466},\ \bibinfo {editor} {edited by\ \bibinfo {editor}
+  {\bibfnamefont {H.}~\bibnamefont {Araki}}, \bibinfo {editor} {\bibfnamefont
+  {E.}~\bibnamefont {Br{\'e}zin}}, \bibinfo {editor} {\bibfnamefont
+  {J.}~\bibnamefont {Ehlers}}, \bibinfo {editor} {\bibfnamefont
+  {U.}~\bibnamefont {Frisch}}, \bibinfo {editor} {\bibfnamefont
+  {K.}~\bibnamefont {Hepp}}, \bibinfo {editor} {\bibfnamefont {R.~L.}\
+  \bibnamefont {Jaffe}}, \bibinfo {editor} {\bibfnamefont {R.}~\bibnamefont
+  {Kippenhahn}}, \bibinfo {editor} {\bibfnamefont {H.~A.}\ \bibnamefont
+  {Weidenm{\"u}ller}}, \bibinfo {editor} {\bibfnamefont {J.}~\bibnamefont
+  {Wess}}, \bibinfo {editor} {\bibfnamefont {J.}~\bibnamefont {Zittartz}},
+  \bibinfo {editor} {\bibfnamefont {W.}~\bibnamefont {Beiglb{\"o}ck}}, \bibinfo
+  {editor} {\bibfnamefont {H.}~\bibnamefont {Ebert}},\ and\ \bibinfo {editor}
+  {\bibfnamefont {G.}~\bibnamefont {Sch{\"u}tz}}}\ (\bibinfo  {publisher}
+  {Springer},\ \bibinfo {address} {{Berlin}},\ \bibinfo {year} {1996})\
+  p.~\bibinfo {pages} {85}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nakagawa}\ and\ \citenamefont
+  {Yokoyama}(2006)}]{nakagawa2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Nakagawa}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yokoyama}},\ }\bibfield  {title} {\bibinfo {title} {Magnetic {{Circular
+  Dichroism}} near the {{Fermi Level}}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.96.237402} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
+  {96}},\ \bibinfo {pages} {237402} (\bibinfo {year} {2006})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Nakagawa}\ \emph {et~al.}(2007)\citenamefont
+  {Nakagawa}, \citenamefont {Yokoyama}, \citenamefont {Hosaka},\ and\
+  \citenamefont {Katoh}}]{nakagawa2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Nakagawa}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Yokoyama}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hosaka}},\ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Katoh}},\ }\bibfield  {title}
+  {\bibinfo {title} {Measurements of threshold photoemission magnetic dichroism
+  using ultraviolet lasers and a photoelastic modulator},\ }\href
+  {https://doi.org/10.1063/1.2437165} {\bibfield  {journal} {\bibinfo
+  {journal} {Review of Scientific Instruments}\ }\textbf {\bibinfo {volume}
+  {78}},\ \bibinfo {pages} {023907} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Nakagawa}\ \emph {et~al.}(2009)\citenamefont
+  {Nakagawa}, \citenamefont {Watanabe}, \citenamefont {Matsumoto},\ and\
+  \citenamefont {Yokoyama}}]{nakagawa2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Nakagawa}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Matsumoto}},\ and\
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Yokoyama}},\ }\bibfield
+  {title} {\bibinfo {title} {Magnetic circular dichroism photoemission electron
+  microscopy using laser and threshold photoemission},\ }\href
+  {https://doi.org/10.1088/0953-8984/21/31/314010} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Physics: Condensed Matter}\ }\textbf
+  {\bibinfo {volume} {21}},\ \bibinfo {pages} {314010} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nakagawa}\ and\ \citenamefont
+  {Yokoyama}(2012)}]{nakagawa2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Nakagawa}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yokoyama}},\ }\bibfield  {title} {\bibinfo {title} {Laser induced threshold
+  photoemission magnetic circular dichroism and its application to
+  photoelectron microscope},\ }\href
+  {https://doi.org/10.1016/j.elspec.2012.02.009} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Electron Spectroscopy and Related
+  Phenomena}\ }\textbf {\bibinfo {volume} {185}},\ \bibinfo {pages} {356}
+  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kronseder}\ \emph {et~al.}(2011)\citenamefont
+  {Kronseder}, \citenamefont {Min{\'a}r}, \citenamefont {Braun}, \citenamefont
+  {G{\"u}nther}, \citenamefont {Woltersdorf}, \citenamefont {Ebert},\ and\
+  \citenamefont {Back}}]{kronseder2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kronseder}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Min{\'a}r}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Braun}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {G{\"u}nther}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Woltersdorf}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Ebert}},\ and\ \bibinfo {author}
+  {\bibfnamefont {C.~H.}\ \bibnamefont {Back}},\ }\bibfield  {title} {\bibinfo
+  {title} {Threshold photoemission magnetic circular dichroism of
+  perpendicularly magnetized {{Ni}} films on {{Cu}}(001): {{Theory}} and
+  experiment},\ }\href {https://doi.org/10.1103/PhysRevB.83.132404} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {83}},\ \bibinfo {pages} {132404} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Meier}\ \emph {et~al.}(2017)\citenamefont {Meier},
+  \citenamefont {Kronseder},\ and\ \citenamefont {Back}}]{meier2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~N.~G.}\
+  \bibnamefont {Meier}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kronseder}},\ and\ \bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont
+  {Back}},\ }\bibfield  {title} {\bibinfo {title} {Domain-width model for
+  perpendicularly magnetized systems with {{Dzyaloshinskii-Moriya}}
+  interaction},\ }\href {https://doi.org/10.1103/PhysRevB.96.144408} {\bibfield
+   {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {96}},\ \bibinfo {pages} {144408} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhao}\ \emph {et~al.}(2019)\citenamefont {Zhao},
+  \citenamefont {Lyu}, \citenamefont {Yang}, \citenamefont {Dong},
+  \citenamefont {Qi}, \citenamefont {Zhang}, \citenamefont {Zhu}, \citenamefont
+  {Sun}, \citenamefont {Yu}, \citenamefont {Jiang}, \citenamefont {Wei},
+  \citenamefont {Wang}, \citenamefont {Lu}, \citenamefont {Wang}, \citenamefont
+  {Cai}, \citenamefont {Shen}, \citenamefont {Zhan}, \citenamefont {Yang},
+  \citenamefont {Zhang},\ and\ \citenamefont {Wang}}]{zhao2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Zhao}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Lyu}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Yang}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Dong}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Qi}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Zhu}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Sun}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Yu}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Jiang}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Wei}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Lu}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Cai}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Shen}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Zhan}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Yang}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Zhang}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Wang}},\ }\bibfield  {title} {\bibinfo
+  {title} {Direct observation of magnetic contrast obtained by photoemission
+  electron microscopy with deep ultra-violet laser excitation},\ }\href
+  {https://doi.org/10.1016/j.ultramic.2019.04.009} {\bibfield  {journal}
+  {\bibinfo  {journal} {Ultramicroscopy}\ }\textbf {\bibinfo {volume} {202}},\
+  \bibinfo {pages} {156} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tamura}\ \emph {et~al.}(1987)\citenamefont {Tamura},
+  \citenamefont {Piepke},\ and\ \citenamefont {Feder}}]{tamura1987}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Tamura}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Piepke}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Feder}},\ }\bibfield
+   {title} {\bibinfo {title} {New spin-polarization effect in photoemission
+  from nonmagnetic surfaces},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.59.934} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {59}},\
+  \bibinfo {pages} {934} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kuch}\ \emph {et~al.}(1996)\citenamefont {Kuch},
+  \citenamefont {Dittschar}, \citenamefont {Meinel}, \citenamefont {Zharnikov},
+  \citenamefont {Schneider}, \citenamefont {Kirschner}, \citenamefont {Henk},\
+  and\ \citenamefont {Feder}}]{kuch1996a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kuch}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dittschar}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Meinel}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Zharnikov}}, \bibinfo {author}
+  {\bibfnamefont {C.~M.}\ \bibnamefont {Schneider}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Kirschner}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Henk}},\ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Feder}},\ }\bibfield  {title} {\bibinfo
+  {title} {Magnetic-circular-dichroism study of the valence states of
+  perpendicularly magnetized {{Ni}}(001) films},\ }\href
+  {https://doi.org/10.1103/PhysRevB.53.11621} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo
+  {pages} {11621} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Feder}\ \emph {et~al.}(1998)\citenamefont {Feder},
+  \citenamefont {Henk},\ and\ \citenamefont {Johansson}}]{feder1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Feder}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Henk}},\ and\
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Johansson}},\ }\bibfield
+  {title} {\bibinfo {title} {Magnetic dichroism in threshold photoemission},\
+  }\href {https://doi.org/10.1016/S0038-1098(98)00489-X} {\bibfield  {journal}
+  {\bibinfo  {journal} {Solid State Communications}\ }\textbf {\bibinfo
+  {volume} {108}},\ \bibinfo {pages} {713} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Venus}(1994)}]{venus1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Venus}},\ }\bibfield  {title} {\bibinfo {title} {Interrelation of
+  magnetic-dichroism effects seen in the angular distribution of photoelectrons
+  from surfaces},\ }\href {https://doi.org/10.1103/PhysRevB.49.8821} {\bibfield
+   {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {49}},\ \bibinfo {pages} {8821} (\bibinfo {year}
+  {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Venus}(1997)}]{venus1997}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Venus}},\ }\bibfield  {title} {\bibinfo {title} {Interpretation of magnetic
+  dichroism in angle-resolved {{UV}} photoemission from valence bands},\ }\href
+  {https://doi.org/10.1016/S0304-8853(97)00026-7} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Magnetism and Magnetic Materials}\ }\textbf
+  {\bibinfo {volume} {170}},\ \bibinfo {pages} {29} (\bibinfo {year}
+  {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kuch}\ and\ \citenamefont
+  {Schneider}(2001)}]{kuch2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kuch}}\ and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Schneider}},\ }\bibfield  {title} {\bibinfo {title} {Magnetic dichroism in
+  valence band photoemission},\ }\href
+  {https://doi.org/10.1088/0034-4885/64/2/201} {\bibfield  {journal} {\bibinfo
+  {journal} {Reports on Progress in Physics}\ }\textbf {\bibinfo {volume}
+  {64}},\ \bibinfo {pages} {147} (\bibinfo {year} {2001})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Venus}\ \emph {et~al.}(1995)\citenamefont {Venus},
+  \citenamefont {Kuch}, \citenamefont {Dittschar}, \citenamefont {Zharnikov},
+  \citenamefont {Schneider},\ and\ \citenamefont {Kirschner}}]{venus95}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Venus}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Kuch}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dittschar}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Zharnikov}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Schneider}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Kirschner}},\ }\bibfield  {title} {\bibinfo
+  {title} {Spin-dependent surface transmission in 3d metals: Implications for
+  magnetic-dichroism measurements of the valence bands},\ }\href
+  {https://doi.org/http://dx.doi.org/10.1103/PhysRevB.52.6174} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {52}},\ \bibinfo {pages} {6174} (\bibinfo {year}
+  {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hild}\ \emph {et~al.}(2008)\citenamefont {Hild},
+  \citenamefont {Maul}, \citenamefont {Meng}, \citenamefont {Kallmayer},
+  \citenamefont {Sch{\"o}nhense}, \citenamefont {Elmers}, \citenamefont
+  {Ramos}, \citenamefont {Arora},\ and\ \citenamefont {Shvets}}]{hild2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Hild}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Maul}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Meng}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Kallmayer}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Sch{\"o}nhense}}, \bibinfo {author}
+  {\bibfnamefont {H.~J.}\ \bibnamefont {Elmers}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Ramos}}, \bibinfo {author} {\bibfnamefont
+  {S.~K.}\ \bibnamefont {Arora}},\ and\ \bibinfo {author} {\bibfnamefont
+  {I.~V.}\ \bibnamefont {Shvets}},\ }\bibfield  {title} {\bibinfo {title}
+  {Optical magnetic circular dichroism in threshold photoemission from a
+  magnetite thin film},\ }\href
+  {https://doi.org/10.1088/0953-8984/20/23/235218} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Physics: Condensed Matter}\ }\textbf
+  {\bibinfo {volume} {20}},\ \bibinfo {pages} {235218} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hild}\ \emph {et~al.}(2009)\citenamefont {Hild},
+  \citenamefont {Maul}, \citenamefont {Sch{\"o}nhense}, \citenamefont {Elmers},
+  \citenamefont {Amft},\ and\ \citenamefont {Oppeneer}}]{hild2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Hild}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Maul}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Sch{\"o}nhense}}, \bibinfo
+  {author} {\bibfnamefont {H.~J.}\ \bibnamefont {Elmers}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Amft}},\ and\ \bibinfo {author}
+  {\bibfnamefont {P.~M.}\ \bibnamefont {Oppeneer}},\ }\bibfield  {title}
+  {\bibinfo {title} {Magnetic {{Circular Dichroism}} in {{Two-Photon
+  Photoemission}}},\ }\href {https://doi.org/10.1103/PhysRevLett.102.057207}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {102}},\ \bibinfo {pages} {057207} (\bibinfo
+  {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hild}\ \emph {et~al.}(2010)\citenamefont {Hild},
+  \citenamefont {Sch{\"o}nhense}, \citenamefont {Elmers}, \citenamefont
+  {Nakagawa}, \citenamefont {Yokoyama}, \citenamefont {Tarafder},\ and\
+  \citenamefont {Oppeneer}}]{hild2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Hild}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Sch{\"o}nhense}}, \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {Elmers}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Nakagawa}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Yokoyama}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Tarafder}},\ and\ \bibinfo
+  {author} {\bibfnamefont {P.~M.}\ \bibnamefont {Oppeneer}},\ }\bibfield
+  {title} {\bibinfo {title} {Energy- and angle-dependent threshold
+  photoemission magnetic circular dichroism from an ultrathin
+  {{Co}}/{{Pt}}(111) film},\ }\href
+  {https://doi.org/10.1103/PhysRevB.82.195430} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
+  {pages} {195430} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Henk}\ and\ \citenamefont
+  {Johansson}(1998)}]{henk1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Henk}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Johansson}},\ }\bibfield  {title} {\bibinfo {title} {Magnetic dichroism in
+  off-normal valence-band photoemission},\ }\href
+  {https://doi.org/10.1016/S0368-2048(98)00185-6} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Electron Spectroscopy and Related
+  Phenomena}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo {pages} {259}
+  (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{Sup()}]{Supplement}%
+  \BibitemOpen
+  \href@noop {} {}\bibinfo {note} {See Supplemental Material at [URL will be
+  inserted by publisher] for supporting information and additional
+  results.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Duncker}\ \emph {et~al.}(2012)\citenamefont
+  {Duncker}, \citenamefont {Kiel},\ and\ \citenamefont {Widdra}}]{duncker2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Duncker}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kiel}},\ and\
+  \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ }\bibfield
+  {title} {\bibinfo {title} {Momentum-resolved lifetimes of image-potential
+  states on {{Ag}}(001)},\ }\href {https://doi.org/10.1016/j.susc.2012.07.022}
+  {\bibfield  {journal} {\bibinfo  {journal} {Surface Science}\ }\textbf
+  {\bibinfo {volume} {606}},\ \bibinfo {pages} {L87} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gillmeister}\ \emph {et~al.}(2020)\citenamefont
+  {Gillmeister}, \citenamefont {Gole{\v z}}, \citenamefont {Chiang},
+  \citenamefont {Bittner}, \citenamefont {Pavlyukh}, \citenamefont {Berakdar},
+  \citenamefont {Werner},\ and\ \citenamefont {Widdra}}]{gillmeister2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Gillmeister}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Gole{\v
+  z}}}, \bibinfo {author} {\bibfnamefont {C.-T.}\ \bibnamefont {Chiang}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Bittner}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Pavlyukh}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Berakdar}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Werner}},\ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ }\bibfield  {title} {\bibinfo
+  {title} {Ultrafast coupled charge and spin dynamics in strongly correlated
+  {{NiO}}},\ }\href {https://doi.org/10.1038/s41467-020-17925-8} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf {\bibinfo
+  {volume} {11}},\ \bibinfo {pages} {4095} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Paleschke}\ \emph {et~al.}(2021)\citenamefont
+  {Paleschke}, \citenamefont {Chiang}, \citenamefont {Brandt}, \citenamefont
+  {Liebing}, \citenamefont {Woltersdorf},\ and\ \citenamefont
+  {Widdra}}]{paleschke2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Paleschke}}, \bibinfo {author} {\bibfnamefont {C.-T.}\ \bibnamefont
+  {Chiang}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Brandt}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Liebing}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Woltersdorf}},\ and\ \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ }\bibfield  {title}
+  {\bibinfo {title} {Plasmonic spin-{{Hall}} effect of propagating surface
+  plasmon polaritons in {Ni$_{80}$Fe$_{20}$} microstructures},\ }\href
+  {https://doi.org/10.1088/1367-2630/ac1c83} {\bibfield  {journal} {\bibinfo
+  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume} {23}},\
+  \bibinfo {pages} {093006} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schumann}\ \emph {et~al.}(2025)\citenamefont
+  {Schumann}, \citenamefont {Paleschke}, \citenamefont {Henk}, \citenamefont
+  {Widdra},\ and\ \citenamefont {Chiang}}]{schumann2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Schumann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Paleschke}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Henk}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Widdra}},\ and\ \bibinfo {author}
+  {\bibfnamefont {C.-T.}\ \bibnamefont {Chiang}},\ }\bibfield  {title}
+  {\bibinfo {title} {Improved imaging of magnetic domains with a photoelectron
+  emission microscope by utilizing symmetry and momentum selection},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  B}\ }\textbf {\bibinfo {volume} {to be submitted}} (\bibinfo {year}
+  {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gillmeister}\ \emph {et~al.}(2018)\citenamefont
+  {Gillmeister}, \citenamefont {Kiel},\ and\ \citenamefont
+  {Widdra}}]{gillmeister2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Gillmeister}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kiel}},\
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Widdra}},\
+  }\bibfield  {title} {\bibinfo {title} {Image potential states at transition
+  metal oxide surfaces: {{A}} time-resolved two-photon photoemission study on
+  ultrathin {{NiO}} films},\ }\href
+  {https://doi.org/10.1103/PhysRevB.97.085424} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
+  {pages} {085424} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Krömker}\ \emph {et~al.}(2008)\citenamefont
+  {Krömker}, \citenamefont {Escher}, \citenamefont {Funnemann}, \citenamefont
+  {Hartung}, \citenamefont {Engelhard},\ and\ \citenamefont
+  {Kirschner}}]{Kroemker08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Krömker}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Escher}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Funnemann}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Hartung}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Engelhard}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Kirschner}},\ }\bibfield  {title} {\bibinfo
+  {title} {Development of a momentum microscope for time resolved band
+  structure imaging},\ }\href {https://doi.org/10.1063/1.2918133} {\bibfield
+  {journal} {\bibinfo  {journal} {Review of Scientific Instruments}\ }\textbf
+  {\bibinfo {volume} {79}},\ \bibinfo {pages} {053702} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kotsugi}\ \emph {et~al.}(2003)\citenamefont
+  {Kotsugi}, \citenamefont {Kuch}, \citenamefont {Offi}, \citenamefont
+  {Chelaru},\ and\ \citenamefont {Kirschner}}]{Kotsugi03}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kotsugi}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Kuch}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Offi}}, \bibinfo {author}
+  {\bibfnamefont {L.~I.}\ \bibnamefont {Chelaru}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Kirschner}},\ }\bibfield  {title} {\bibinfo
+  {title} {Microspectroscopic two-dimensional fermi surface mapping using a
+  photoelectron emission microscope},\ }\href
+  {https://doi.org/10.1063/1.1569404} {\bibfield  {journal} {\bibinfo
+  {journal} {Review of Scientific Instruments}\ }\textbf {\bibinfo {volume}
+  {74}},\ \bibinfo {pages} {2754} (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Henk}\ \emph {et~al.}(1999)\citenamefont {Henk},
+  \citenamefont {Niklasson},\ and\ \citenamefont {Johansson}}]{henk1999}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Henk}}, \bibinfo {author} {\bibfnamefont {A.~M.~N.}\ \bibnamefont
+  {Niklasson}},\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Johansson}},\ }\bibfield  {title} {\bibinfo {title} {{Magnetism and
+  anisotropy of ultrathin Ni films on Cu(001)}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.59.9332} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
+  {pages} {9332} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sander}\ \emph {et~al.}(2004)\citenamefont {Sander},
+  \citenamefont {Pan}, \citenamefont {Ouazi}, \citenamefont {Kirschner},
+  \citenamefont {Meyer}, \citenamefont {Krause}, \citenamefont {Muller},
+  \citenamefont {Hammer},\ and\ \citenamefont {Heinz}}]{sander2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Sander}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Pan}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ouazi}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Kirschner}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Meyer}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Krause}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Hammer}},\ and\ \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Heinz}},\ }\bibfield  {title} {\bibinfo {title}
+  {{Reversible H-induced switching of the magnetic easy axis in Ni/Cu(001) thin
+  films}},\ }\href {https://doi.org/10.1103/PhysRevLett.93.247203} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {volume} {93}},\ \bibinfo {pages} {247203} (\bibinfo {year}
+  {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Parkin}\ \emph {et~al.}(2008)\citenamefont {Parkin},
+  \citenamefont {Hayashi},\ and\ \citenamefont {Thomas}}]{parkin2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~S.~P.}\
+  \bibnamefont {Parkin}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Hayashi}},\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Thomas}},\ }\bibfield  {title} {\bibinfo {title} {Magnetic domain-wall
+  racetrack memory},\ }\href {https://doi.org/10.1126/science.1145799}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {320}},\ \bibinfo {pages} {190} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Göbel}\ \emph {et~al.}(2019)\citenamefont {Göbel},
+  \citenamefont {Schäffer}, \citenamefont {Berakdar}, \citenamefont {Mertig},\
+  and\ \citenamefont {Parkin}}]{goebel2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Göbel}}, \bibinfo {author} {\bibfnamefont {A.~F.}\ \bibnamefont
+  {Schäffer}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Berakdar}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mertig}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.~S.~P.}\ \bibnamefont {Parkin}},\ }\bibfield
+  {title} {\bibinfo {title} {Electrical writing, deleting, reading, and moving
+  of magnetic skyrmioniums in a racetrack device},\ }\href
+  {https://doi.org/10.1038/s41598-019-48617-z} {\bibfield  {journal} {\bibinfo
+  {journal} {Scientific Reports}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo
+  {pages} {12119} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jani}\ \emph {et~al.}(2021)\citenamefont {Jani},
+  \citenamefont {Lin}, \citenamefont {Chen}, \citenamefont {Harrison},
+  \citenamefont {Maccherozzi}, \citenamefont {Schad}, \citenamefont {Prakash},
+  \citenamefont {Eom}, \citenamefont {Ariando}, \citenamefont {Venkatesan},\
+  and\ \citenamefont {Radaelli}}]{jani2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Jani}}, \bibinfo {author} {\bibfnamefont {J.-C.}\ \bibnamefont {Lin}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Harrison}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Maccherozzi}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Schad}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Prakash}}, \bibinfo {author} {\bibfnamefont {C.-B.}\
+  \bibnamefont {Eom}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Ariando}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Venkatesan}},\ and\ \bibinfo {author} {\bibfnamefont {P.~G.}\ \bibnamefont
+  {Radaelli}},\ }\bibfield  {title} {\bibinfo {title} {Antiferromagnetic
+  half-skyrmions and bimerons at room temperature},\ }\href
+  {https://doi.org/10.1038/s41586-021-03219-6} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {590}},\ \bibinfo {pages}
+  {74} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kern}\ \emph {et~al.}(2022)\citenamefont {Kern},
+  \citenamefont {Pfau}, \citenamefont {Deinhart}, \citenamefont {Schneider},
+  \citenamefont {Klose}, \citenamefont {Gerlinger}, \citenamefont {Wittrock},
+  \citenamefont {Engel}, \citenamefont {Will}, \citenamefont {Günther},
+  \citenamefont {Liefferink}, \citenamefont {Mentink}, \citenamefont {Wintz},
+  \citenamefont {Weigand}, \citenamefont {Huang}, \citenamefont {Battistelli},
+  \citenamefont {Metternich}, \citenamefont {Büttner}, \citenamefont
+  {Höflich},\ and\ \citenamefont {Eisebitt}}]{kern2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.-M.}\ \bibnamefont
+  {Kern}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Pfau}}, \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Deinhart}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Schneider}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Klose}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Gerlinger}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Wittrock}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Engel}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Will}}, \bibinfo {author} {\bibfnamefont {C.~M.}\
+  \bibnamefont {Günther}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Liefferink}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Mentink}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Wintz}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Weigand}}, \bibinfo
+  {author} {\bibfnamefont {M.-J.}\ \bibnamefont {Huang}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Battistelli}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Metternich}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Büttner}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Höflich}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Eisebitt}},\ }\bibfield  {title} {\bibinfo
+  {title} {{Deterministic Generation and Guided Motion of Magnetic Skyrmions by
+  Focused He$^+$-Ion Irradiation}},\ }\href
+  {https://doi.org/10.1021/acs.nanolett.2c00670} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume} {22}},\
+  \bibinfo {pages} {4028} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\end{thebibliography}%
